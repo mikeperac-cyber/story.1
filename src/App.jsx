@@ -25,6 +25,41 @@ function clamp(value, min, max) {
   return Math.min(max, Math.max(min, value));
 }
 
+const EMOTIONAL_DELIVERY = {
+  nervous: { rate: 0.92, pitch: 1.02, pause: 285 },
+  brave: { rate: 1.01, pitch: 1.08, pause: 200 },
+  joyful: { rate: 1.05, pitch: 1.13, pause: 190 },
+  wonder: { rate: 0.94, pitch: 1.15, pause: 280 },
+  curious: { rate: 0.97, pitch: 1.12, pause: 230 },
+  tender: { rate: 0.94, pitch: 1.04, pause: 255 },
+  thoughtful: { rate: 0.91, pitch: 1.01, pause: 300 },
+  neutral: { rate: 1, pitch: 1.05, pause: 165 },
+};
+
+function emotionFor(sentence) {
+  const scores = Object.fromEntries(Object.keys(EMOTIONAL_DELIVERY).map((mood) => [mood, 0]));
+  const cues = [
+    ["nervous", /\b(worried|worry|afraid|scared|fear|nervous|trembl\w*|shook|shaking|lost|lonely|mist|vanished|whisper\w*|hesitat\w*)\b/i, 3],
+    ["brave", /\b(brave|courage|dared|stood up|took one step|called louder|i can do this|kept going|tried again)\b/i, 3],
+    ["joyful", /\b(laugh\w*|smil\w*|glad|happy|cheer\w*|giggl\w*|celebrat\w*|delight\w*|play\w*)\b/i, 3],
+    ["wonder", /\b(gasp\w*|glimmer\w*|sparkle\w*|shimmer\w*|magical|moon|starlight|wide[- ]eyed|astonish\w*|beautiful)\b/i, 3],
+    ["curious", /\b(wonder\w*|ask\w*|what if|curious|perhaps|maybe|where|why|how)\b/i, 2],
+    ["tender", /\b(gentle|soft|warm|friend\w*|kind\w*|safe|comfort\w*|home|love\w*|welcome|hug\w*)\b/i, 2],
+    ["thoughtful", /\b(realiz\w*|understood|learned|remember\w*|thought|noticed|quietly|at last)\b/i, 2],
+  ];
+
+  for (const [mood, pattern, weight] of cues) {
+    if (pattern.test(sentence)) scores[mood] += weight;
+  }
+  if (/\?+[”"’']?\s*$/u.test(sentence)) scores.curious += 2;
+  if (/!+[”"’']?\s*$/u.test(sentence)) scores.joyful += 2;
+
+  return Object.entries(scores).reduce(
+    (best, [mood, score]) => score > best.score ? { mood, score } : best,
+    { mood: "neutral", score: 0 },
+  ).mood;
+}
+
 function recommendedEnglishVoice(voices) {
   return [...voices].sort((left, right) => {
     const score = (voice) => {
@@ -40,13 +75,13 @@ function recommendedEnglishVoice(voices) {
 }
 
 function splitNarration(text) {
-  return (text.match(/[^.!?]+(?:[.!?]+[”"’']*|$)/gu) ?? [text])
+  return (text.match(/[^.!?…]+(?:[.!?…]+[”"’']*|$)/gu) ?? [text])
     .map((sentence) => sentence.trim())
     .filter(Boolean)
     .map((sentence) => ({
       text: sentence,
       dialogue: /[“"][^”"]+[”"]/.test(sentence),
-      expressive: /[!?][”"’']?$/.test(sentence),
+      mood: emotionFor(sentence),
     }));
 }
 
@@ -106,7 +141,7 @@ export default function App() {
       textScale: clamp(Number(saved.textScale) || 1, 0.9, 1.25),
       panelOpacity: clamp(Number(saved.panelOpacity) || 0.82, 0.72, 0.96),
       voiceURI: typeof saved.voiceURI === "string" && saved.voiceURI ? saved.voiceURI : "kokoro",
-      speechRate: clamp(Number(saved.speechRate) || 0.92, 0.75, 1.15),
+      speechRate: clamp(Number(saved.speechRate) || 0.92, 0.5, 1.15),
     };
   });
   const [availableVoices, setAvailableVoices] = useState([]);
@@ -288,7 +323,7 @@ export default function App() {
       audio.onplay = () => {
         if (runId !== narrationRunRef.current) return;
         setSpeechState("speaking");
-        setAudioMessage("Kokoro storyteller is reading this page.");
+        setAudioMessage("Kokoro storyteller is reading this page in its consistent offline voice.");
       };
       audio.onpause = () => {
         if (runId !== narrationRunRef.current || audio.ended) return;
@@ -332,14 +367,15 @@ export default function App() {
       }
 
       const segment = segments[index];
+      const delivery = EMOTIONAL_DELIVERY[segment.mood];
       const utterance = new window.SpeechSynthesisUtterance(segment.text);
       utterance.lang = selectedVoice?.lang ?? "en-US";
       if (selectedVoice) utterance.voice = selectedVoice;
-      utterance.rate = settings.speechRate;
-      utterance.pitch = segment.dialogue ? 1.15 : segment.expressive ? 1.11 : 1.08;
+      utterance.rate = clamp(settings.speechRate * delivery.rate, 0.4, 1.4);
+      utterance.pitch = clamp(delivery.pitch + (segment.dialogue ? 0.025 : 0), 0.9, 1.2);
       utterance.onend = () => {
         if (runId !== narrationRunRef.current) return;
-        window.setTimeout(() => speakSegment(index + 1), segment.expressive ? 210 : 150);
+        window.setTimeout(() => speakSegment(index + 1), delivery.pause);
       };
       utterance.onerror = (event) => {
         if (runId !== narrationRunRef.current) return;
@@ -351,7 +387,7 @@ export default function App() {
       window.speechSynthesis.speak(utterance);
     };
 
-    setAudioMessage("");
+    setAudioMessage("The device storyteller gently shifts pace and tone for curious, worried, joyful, brave, and tender lines.");
     setSpeechState("speaking");
     speakSegment(0);
   }, [currentNarrationAudio, currentPage.text, selectedVoice, selectedVoiceURI, settings.speechRate]);
@@ -428,7 +464,7 @@ export default function App() {
           onVoiceChange={(value) => setSettings((previous) => ({ ...previous, voiceURI: value }))}
           onSpeechRateChange={(value) => {
             if (narrationAudioRef.current) narrationAudioRef.current.playbackRate = value;
-            setSettings((previous) => ({ ...previous, speechRate: value }));
+            setSettings((previous) => ({ ...previous, speechRate: clamp(value, 0.5, 1.15) }));
           }}
           onTextScaleChange={(value) => setSettings((previous) => ({ ...previous, textScale: value }))}
           onPanelOpacityChange={(value) => setSettings((previous) => ({ ...previous, panelOpacity: value }))}

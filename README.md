@@ -35,14 +35,14 @@ python scripts/generate-narration.py
 pnpm build
 ```
 
-The first generation downloads the Kokoro model and voice files once. It uses the local computer to render the audio. The generated clips use the `af_heart` English voice at a gentle story pace; readers can change playback speed or choose an English voice supplied by their browser.
+The first generation downloads the Kokoro model and voice files once. It uses the local computer to render the audio. The generated clips use the `af_heart` English voice at a gentle story pace. Kokoro's current synthesis controls provide voice and speed, not direct emotion tags, so its bundled narration stays in one consistent voice. Readers can select an expressive browser voice for gentle sentence-by-sentence shifts in pace and pitch based on the story's wording and punctuation. Browser voices vary by device.
 
 ## Reader features
 
 - Search all stories and filter by theme.
 - Save reading progress, bookmarks, text size, and panel opacity in the browser.
 - Navigate by buttons, page dots, arrow keys, or touch swipes.
-- Read pages aloud with consistent, model-generated Kokoro narration or another English voice available on the device. Kokoro audio is included in both the web build and the portable offline file. Adjust the reading pace from 0.75× to 1.15×.
++ Read pages aloud with consistent, model-generated Kokoro narration or an expressive English voice available on the device. The expressive device voice gently changes pace and pitch for curious, worried, joyful, brave, and tender lines. Slow Kokoro or device narration down to 0.5×, or use the one-tap Slow control at 0.6×; adjust up to 1.15×.
 - Adjust text size and the parchment panel opacity. The panel remains at least 72% opaque for contrast and scrolls when a reader chooses a larger text size than fits on one screen.
 
 Reading data stays in this browser; the site has no account or server-side storage. Browsers may limit saved progress when an HTML file is opened from Downloads, but reading and the reader controls work in that session. Kokoro narration is bundled with the book and works offline; optional browser voices vary by device, and voices marked “online” may need a connection.

@@ -155,10 +155,10 @@ export default function Reader({
                   id="narration-voice"
                   value={voiceURI}
                   onChange={(event) => onVoiceChange(event.target.value)}
-                  title="Kokoro narration is included in the download and works offline. Device voices are available as an alternative."
+                  title="Kokoro is the consistent offline voice. Device voices add gentle sentence-by-sentence expression; available voices vary by browser."
                 >
                   <option value="kokoro">Kokoro · Offline storyteller</option>
-                  <option value="device">Device storyteller</option>
+                  <option value="device">Expressive device storyteller</option>
                   {voices.map((voice) => (
                     <option key={`${voice.voiceURI}-${voice.lang}`} value={voice.voiceURI}>
                       {voice.name} · {voice.lang}{voice.localService ? " · on device" : " · online"}
@@ -169,18 +169,27 @@ export default function Reader({
               <label className="narration-field narration-rate-field" htmlFor="narration-rate">
                 <span className="narration-rate-heading">
                   <span className="control-label">Reading pace</span>
-                  <output htmlFor="narration-rate">{speechRate.toFixed(2)}×</output>
+                  <span className="narration-rate-actions">
+                    <button
+                      className="pace-preset-button"
+                      type="button"
+                      aria-label="Set a slow reading pace of 0.6 times"
+                      aria-pressed={speechRate <= 0.62}
+                      onClick={() => onSpeechRateChange(0.6)}
+                    >Slow</button>
+                    <output htmlFor="narration-rate">{speechRate.toFixed(2)}×</output>
+                  </span>
                 </span>
                 <input
                   id="narration-rate"
                   type="range"
-                  min="0.75"
+                  min="0.5"
                   max="1.15"
-                step="0.01"
+                  step="0.01"
                   value={speechRate}
                   aria-label="Reading pace"
                   onChange={(event) => onSpeechRateChange(Number(event.target.value))}
-                  style={{ "--range-progress": `${((speechRate - 0.75) / 0.4) * 100}%` }}
+                  style={{ "--range-progress": `${((speechRate - 0.5) / 0.65) * 100}%` }}
                 />
               </label>
           </div>
