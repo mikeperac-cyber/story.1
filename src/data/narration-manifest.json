@@ -1,8 +1,14 @@
 {
-  "model": "hexgrad/Kokoro-82M",
-  "license": "Apache-2.0",
-  "voice": "af_heart",
-  "speed": 0.96,
+  "model": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+  "model_license": "Apache-2.0",
+  "speaker": "Aiden",
+  "language": "English",
+  "device_used_for_generation": "cuda:0",
+  "batch_size": 8,
+  "style_version": "lanternberry-kid-storytime-v1",
+  "style": "Kid-friendly storytime with page-specific emotion, gentle pitch movement, clear diction, and unhurried pacing.",
+  "sample_rate": 24000,
+  "format": "MP3, mono, 64 kbps",
   "pages": {
     "1": {
       "1": "/audio/narration/story-01-page-01.mp3",
@@ -123,6 +129,128 @@
       "8": "/audio/narration/story-10-page-08.mp3",
       "9": "/audio/narration/story-10-page-09.mp3",
       "10": "/audio/narration/story-10-page-10.mp3"
+    }
+  },
+  "emotions": {
+    "1": {
+      "1": "shy curiosity",
+      "2": "cozy shyness",
+      "3": "hopeful nerves",
+      "4": "tentative confidence",
+      "5": "mild worry",
+      "6": "worry turning to courage",
+      "7": "growing bravery",
+      "8": "calm guidance and wonder",
+      "9": "relief and belonging",
+      "10": "content friendship"
+    },
+    "2": {
+      "1": "curious concern",
+      "2": "playful disappointment turning tender",
+      "3": "empathetic curiosity",
+      "4": "uneasy determination",
+      "5": "funny setback",
+      "6": "sympathy and resolve",
+      "7": "focused courage",
+      "8": "hopeful effort",
+      "9": "relief and joy",
+      "10": "uplifting pride"
+    },
+    "3": {
+      "1": "gentle concern",
+      "2": "kind warmth",
+      "3": "small wonder",
+      "4": "tender thoughtfulness",
+      "5": "surprise and worry",
+      "6": "relief and teamwork",
+      "7": "quiet cooperation",
+      "8": "morning wonder",
+      "9": "playful joy",
+      "10": "reflective kindness"
+    },
+    "4": {
+      "1": "wistful insecurity",
+      "2": "effort and self-doubt",
+      "3": "quiet concern",
+      "4": "curious self-discovery",
+      "5": "nervousness becoming reassurance",
+      "6": "calm confidence",
+      "7": "brief uncertainty then resolve",
+      "8": "growing wonder",
+      "9": "gratitude and pride",
+      "10": "self-acceptance"
+    },
+    "5": {
+      "1": "playful confidence",
+      "2": "bouncy mischief",
+      "3": "sudden embarrassment",
+      "4": "uneasy reflection",
+      "5": "anxious choice",
+      "6": "honest relief",
+      "7": "creative delight",
+      "8": "focused teamwork",
+      "9": "celebration",
+      "10": "satisfied honesty"
+    },
+    "6": {
+      "1": "quiet mystery",
+      "2": "listening curiosity",
+      "3": "practical problem-solving",
+      "4": "searching uncertainty",
+      "5": "discovery with a challenge",
+      "6": "confusion becoming calm",
+      "7": "thoughtful cooperation",
+      "8": "coordinated excitement",
+      "9": "joyful celebration",
+      "10": "reflective teamwork"
+    },
+    "7": {
+      "1": "quiet inspiration",
+      "2": "creative excitement",
+      "3": "comic disappointment",
+      "4": "supportive curiosity",
+      "5": "surprise and delight",
+      "6": "setback and urgency",
+      "7": "hopeful collaboration",
+      "8": "focused teamwork",
+      "9": "wonderful celebration",
+      "10": "gratitude and reflection"
+    },
+    "8": {
+      "1": "disappointment and comfort",
+      "2": "gentle curiosity",
+      "3": "cozy delight",
+      "4": "silly joy",
+      "5": "impatient grumble",
+      "6": "kind warmth",
+      "7": "bright discovery",
+      "8": "playful imagination",
+      "9": "content pride",
+      "10": "peaceful gratitude"
+    },
+    "9": {
+      "1": "hopeful anticipation",
+      "2": "steady reassurance",
+      "3": "tired calm",
+      "4": "curious helpfulness",
+      "5": "cautious concern",
+      "6": "perseverance",
+      "7": "hopeful reassurance",
+      "8": "awe",
+      "9": "earned joy",
+      "10": "reflective pride"
+    },
+    "10": {
+      "1": "tender uncertainty",
+      "2": "cozy worry",
+      "3": "wonderful discovery",
+      "4": "nostalgic comfort",
+      "5": "family reassurance",
+      "6": "uncertainty becoming safety",
+      "7": "bedtime security",
+      "8": "reflective joy",
+      "9": "playful belonging",
+      "10": "heartfelt warmth"
     }
   }
 }

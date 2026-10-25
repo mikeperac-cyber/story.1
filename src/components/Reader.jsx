@@ -155,9 +155,9 @@ export default function Reader({
                   id="narration-voice"
                   value={voiceURI}
                   onChange={(event) => onVoiceChange(event.target.value)}
-                  title="Kokoro is the consistent offline voice. Device voices add gentle sentence-by-sentence expression; available voices vary by browser."
+                  title="Aiden is the consistent offline storyteller, with gentle page-matched emotions. Device voices add sentence-by-sentence expression; available voices vary by browser."
                 >
-                  <option value="kokoro">Kokoro · Offline storyteller</option>
+                  <option value="offline">Aiden · Expressive offline storyteller</option>
                   <option value="device">Expressive device storyteller</option>
                   {voices.map((voice) => (
                     <option key={`${voice.voiceURI}-${voice.lang}`} value={voice.voiceURI}>

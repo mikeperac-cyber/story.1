@@ -13,7 +13,8 @@
     "build:web": "vite build",
     "preview": "vite preview --host 0.0.0.0",
     "sync-content": "node scripts/build-stories.mjs",
-    "narrate": "python scripts/generate-narration.py"
+    "narrate": "python scripts/generate-narration-qwen.py",
+    "narrate:kokoro": "python scripts/generate-narration.py"
   },
   "dependencies": {
     "react": "19.3.1",

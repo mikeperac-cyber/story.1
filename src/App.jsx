@@ -140,7 +140,9 @@ export default function App() {
     return {
       textScale: clamp(Number(saved.textScale) || 1, 0.9, 1.25),
       panelOpacity: clamp(Number(saved.panelOpacity) || 0.82, 0.72, 0.96),
-      voiceURI: typeof saved.voiceURI === "string" && saved.voiceURI ? saved.voiceURI : "kokoro",
+      voiceURI: typeof saved.voiceURI === "string" && saved.voiceURI && saved.voiceURI !== "kokoro"
+        ? saved.voiceURI
+        : "offline",
       speechRate: clamp(Number(saved.speechRate) || 0.92, 0.5, 1.15),
     };
   });
@@ -167,8 +169,9 @@ export default function App() {
   const selectedVoiceURI = settings.voiceURI === "device"
     || englishVoices.some((voice) => voice.voiceURI === settings.voiceURI)
     ? settings.voiceURI
-    : "kokoro";
+    : "offline";
   const currentNarrationAudio = narrationManifest.pages?.[String(activeStory.id)]?.[String(pageNumber)] ?? "";
+  const currentNarrationMood = narrationManifest.emotions?.[String(activeStory.id)]?.[String(pageNumber)];
 
   useEffect(() => {
     if (!("speechSynthesis" in window)) return undefined;
@@ -310,10 +313,10 @@ export default function App() {
     if ("speechSynthesis" in window) window.speechSynthesis.cancel();
     stopAudioElement(narrationAudioRef);
 
-    if (selectedVoiceURI === "kokoro") {
+    if (selectedVoiceURI === "offline") {
       if (!currentNarrationAudio) {
         setSpeechState("idle");
-        setAudioMessage("Kokoro narration is missing for this page. Rebuild the offline reader after generating narration.");
+        setAudioMessage("Offline story narration is missing for this page. Rebuild the reader after generating narration.");
         return;
       }
       const audio = new window.Audio(currentNarrationAudio);
@@ -323,7 +326,11 @@ export default function App() {
       audio.onplay = () => {
         if (runId !== narrationRunRef.current) return;
         setSpeechState("speaking");
-        setAudioMessage("Kokoro storyteller is reading this page in its consistent offline voice.");
+        setAudioMessage(
+          currentNarrationMood
+            ? `Aiden is reading with ${currentNarrationMood} expression and gentle pitch changes.`
+            : "Aiden is reading with gentle, page-matched story emotions.",
+        );
       };
       audio.onpause = () => {
         if (runId !== narrationRunRef.current || audio.ended) return;
@@ -339,7 +346,7 @@ export default function App() {
         if (runId !== narrationRunRef.current) return;
         narrationAudioRef.current = null;
         setSpeechState("idle");
-        setAudioMessage("Kokoro audio could not play here. Choose a device voice to continue.");
+        setAudioMessage("Offline story audio could not play here. Choose a device voice to continue.");
       };
       setAudioMessage("");
       setSpeechState("speaking");
@@ -349,7 +356,7 @@ export default function App() {
         if (runId !== narrationRunRef.current) return;
         narrationAudioRef.current = null;
         setSpeechState("idle");
-        setAudioMessage("Kokoro audio could not play here. Choose a device voice to continue.");
+        setAudioMessage("Offline story audio could not play here. Choose a device voice to continue.");
       }
       return;
     }
@@ -390,7 +397,7 @@ export default function App() {
     setAudioMessage("The device storyteller gently shifts pace and tone for curious, worried, joyful, brave, and tender lines.");
     setSpeechState("speaking");
     speakSegment(0);
-  }, [currentNarrationAudio, currentPage.text, selectedVoice, selectedVoiceURI, settings.speechRate]);
+  }, [currentNarrationAudio, currentNarrationMood, currentPage.text, selectedVoice, selectedVoiceURI, settings.speechRate]);
 
   const togglePause = useCallback(() => {
     const audio = narrationAudioRef.current;
@@ -399,7 +406,7 @@ export default function App() {
       else if (speechState === "paused") {
         audio.play().catch(() => {
           setSpeechState("idle");
-          setAudioMessage("Kokoro audio could not resume here. Press Listen to try again.");
+          setAudioMessage("Story audio could not resume here. Press Listen to try again.");
         });
       }
       return;
