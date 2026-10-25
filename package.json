@@ -1,0 +1,25 @@
+{
+  "name": "lanternberry-interactive-reader",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build && node scripts/build-offline.mjs",
+    "build:web": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "sync-content": "node scripts/build-stories.mjs",
+    "narrate": "python scripts/generate-narration.py"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "vite": "8.3.4"
+  }
+}

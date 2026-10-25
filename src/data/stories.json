@@ -1,0 +1,792 @@
+[
+  {
+    "id": 1,
+    "title": "Tansy and the Firefly Picnic",
+    "theme": "Friendship",
+    "summary": "A shy hedgehog discovers that friendship can begin with one small hello.",
+    "coverUrl": "/images/thumbnails/story-01.webp",
+    "pages": [
+      {
+        "number": 1,
+        "bookPage": 1,
+        "text": "At the edge of Bramblebright Wood, Tansy the hedgehog watched tiny green lights bob between the ferns. A picnic! She tucked her paws beneath her chin. “I could go,” she whispered. Then a twig snapped, and she hurried back under the leaves.",
+        "artUrl": "/images/pages/page-001.webp",
+        "alt": "Tansy and the Firefly Picnic: Bramblebright Wood at twilight, opening spread-like single square page illustration."
+      },
+      {
+        "number": 2,
+        "bookPage": 2,
+        "text": "Tansy liked quiet things: raindrops on mushrooms, warm tea, and beetles who did not ask questions. She had never joined the firefly picnic. From her fern hollow, she practiced, “Hello, may I sit with you?” Her voice sounded smaller than a moth’s sneeze.",
+        "artUrl": "/images/pages/page-002.webp",
+        "alt": "Tansy and the Firefly Picnic: Inside Tansy's cozy fern hollow."
+      },
+      {
+        "number": 3,
+        "bookPage": 3,
+        "text": "A silver-green ribbon fluttered past her doorway. It was an invitation, tied in a careful bow. “Everyone is welcome,” it read. Tansy held the ribbon close. Her tummy fluttered too. She would bring her berry biscuits. Perhaps she could leave them and tiptoe home.",
+        "artUrl": "/images/pages/page-003.webp",
+        "alt": "Tansy and the Firefly Picnic: The forest path outside the hollow."
+      },
+      {
+        "number": 4,
+        "bookPage": 4,
+        "text": "Tansy packed six biscuits in a leaf basket. On the path, she practiced saying hello to a beetle, then a sleepy snail. “Hello,” she said. The snail blinked. “Hello back.” Tansy smiled. The words were still wobbly, but now they had made it outside.",
+        "artUrl": "/images/pages/page-004.webp",
+        "alt": "Tansy and the Firefly Picnic: A sunny patch on the forest path."
+      },
+      {
+        "number": 5,
+        "bookPage": 5,
+        "text": "The picnic lights glimmered ahead—then vanished. A soft fog curled between the trees. Tansy’s paws stopped. The forest looked like a blanket pulled over its own ears. She could turn home. But somewhere in the mist, a firefly gave a worried blink.",
+        "artUrl": "/images/pages/page-005.webp",
+        "alt": "Tansy and the Firefly Picnic: The trail toward the picnic disappears into gentle mist."
+      },
+      {
+        "number": 6,
+        "bookPage": 6,
+        "text": "“Is anyone there?” called a voice. Another voice answered from the wrong direction. The fireflies had scattered, and the guests could not find the clearing. Tansy knew the bracken path by heart. Her paws shook, but she lifted the leaf basket and took one step.",
+        "artUrl": "/images/pages/page-006.webp",
+        "alt": "Tansy and the Firefly Picnic: Near the foggy fork in the bracken path."
+      },
+      {
+        "number": 7,
+        "bookPage": 7,
+        "text": "Tansy climbed a low stump. “I know a way!” she called, louder than before. Her voice trembled, yet it crossed the fog. She tied her saffron scarf to a branch beside the safe path. A green light blinked back. Then another answered.",
+        "artUrl": "/images/pages/page-007.webp",
+        "alt": "Tansy and the Firefly Picnic: A low stump beside the safe bracken trail."
+      },
+      {
+        "number": 8,
+        "bookPage": 8,
+        "text": "One by one, the guests followed the scarf-marked path. Tansy walked slowly, pointing out roots and puddles. “This way, please.” The rabbit, mouse, and fireflies stayed close together. The fog began to thin, and the picnic lanterns shone like warm little moons.",
+        "artUrl": "/images/pages/page-008.webp",
+        "alt": "Tansy and the Firefly Picnic: The group carefully follows the marked path as fog thins."
+      },
+      {
+        "number": 9,
+        "bookPage": 9,
+        "text": "At last, everyone reached the clearing. The rabbit made room on the blanket, and the mouse poured berry tea. Tansy offered her biscuits. “I’m glad you came,” said the rabbit. Tansy’s smile grew wide enough to feel like a lantern of its own.",
+        "artUrl": "/images/pages/page-009.webp",
+        "alt": "Tansy and the Firefly Picnic: The firefly picnic clearing, now reached safely."
+      },
+      {
+        "number": 10,
+        "bookPage": 10,
+        "text": "Later, Tansy walked home with new friends beside her. The fireflies floated overhead, lighting the path in green and gold. “Will you come next time?” asked the mouse. “Yes,” said Tansy. Her hello had opened a door, and friendship was waiting on the other side.",
+        "artUrl": "/images/pages/page-010.webp",
+        "alt": "Tansy and the Firefly Picnic: Tansy walks home after the picnic with her new friends."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Pip's Small-Brave Flight",
+    "theme": "Courage",
+    "summary": "A little dragon finds a brave way to help a wandering raincloud.",
+    "coverUrl": "/images/thumbnails/story-02.webp",
+    "pages": [
+      {
+        "number": 1,
+        "bookPage": 11,
+        "text": "Pip spotted a fluffy cloud drifting away from Sunnyvale. Below it, the garden drooped. “Wait!” he called. The cloud gave a soft rumble, but the wind carried it toward the far hills. Pip’s wings fluttered. He had never chased a cloud before.",
+        "artUrl": "/images/pages/page-011.webp",
+        "alt": "Pip's Small-Brave Flight: Sunnyvale at a bright morning; a fluffy cloud drifts toward far hills above a drooping garden."
+      },
+      {
+        "number": 2,
+        "bookPage": 12,
+        "text": "At dragon school, the others made neat loops of flame. Pip breathed in, puffed his cheeks, and blew. A warm little mist floated from his nose. “That’s not fire,” he sighed. Then the mist curled around a thirsty flower. Its petals lifted.",
+        "artUrl": "/images/pages/page-012.webp",
+        "alt": "Pip's Small-Brave Flight: dragon-school practice yard with rounded stones and flower pots."
+      },
+      {
+        "number": 3,
+        "bookPage": 13,
+        "text": "A low rumble rolled from the wandering cloud. Pip heard no thunder—only a lonely, bubbly grumble. “Are you lost?” he asked. The cloud drifted over the dry garden, then toward the windy ridge. Pip looked at the drooping flowers. He knew what he must try.",
+        "artUrl": "/images/pages/page-013.webp",
+        "alt": "Pip's Small-Brave Flight: Pip watches Cloudie pass over the dry garden toward the ridge."
+      },
+      {
+        "number": 4,
+        "bookPage": 14,
+        "text": "Pip climbed the breezy hill. Gusts pushed his blue cape over his head, and his wings wobbled like loose leaves. “I’m still going,” he told himself. At the top, he saw the cloud bobbing beyond the ridge. It seemed farther away than before.",
+        "artUrl": "/images/pages/page-014.webp",
+        "alt": "Pip's Small-Brave Flight: Pip climbs a rounded hill in a lively but safe breeze."
+      },
+      {
+        "number": 5,
+        "bookPage": 15,
+        "text": "Pip flapped as hard as he could. “This way!” he puffed. The wind spun him around, and he landed bottom-first in a haystack. A sneeze of straw flew from his nose. Pip giggled, then stood up. The cloud had stopped to listen.",
+        "artUrl": "/images/pages/page-015.webp",
+        "alt": "Pip's Small-Brave Flight: A haystack at the hilltop edge."
+      },
+      {
+        "number": 6,
+        "bookPage": 16,
+        "text": "A child in a green raincoat watched from the garden gate. “Can the cloud come back?” she asked. “The seedlings are thirsty.” Pip swallowed. He did not know if he could move a cloud. But he could try to help it find the garden.",
+        "artUrl": "/images/pages/page-016.webp",
+        "alt": "Pip's Small-Brave Flight: A small garden gate below the hill."
+      },
+      {
+        "number": 7,
+        "bookPage": 17,
+        "text": "Pip closed his eyes and listened. The wind whistled over the ridge, then softened near a dip in the hill. “This way is sheltered!” he called to the cloud. His knees trembled. His voice did too. Still, he kept calling.",
+        "artUrl": "/images/pages/page-017.webp",
+        "alt": "Pip's Small-Brave Flight: On the breezy ridge, facing a sheltered dip in the hill."
+      },
+      {
+        "number": 8,
+        "bookPage": 18,
+        "text": "Pip beat his little wings in a steady rhythm. Warm mist curled from his nose and showed the cloud the gentle path around the ridge. The cloud followed, bobbing slowly. Pip flew beside it, tired but smiling. “You’re doing it!” called the child below.",
+        "artUrl": "/images/pages/page-018.webp",
+        "alt": "Pip's Small-Brave Flight: Pip guides Cloudie around the sheltered side of the ridge."
+      },
+      {
+        "number": 9,
+        "bookPage": 19,
+        "text": "The cloud reached the garden and opened into a soft, silver rain. Drops tapped the soil. Seedlings stretched, and the flowers lifted their sleepy heads. Pip landed beside the gate, damp from his own mist and grinning from ear to ear.",
+        "artUrl": "/images/pages/page-019.webp",
+        "alt": "Pip's Small-Brave Flight: Cloudie reaches Sunnyvale's garden and releases a soft silver rain."
+      },
+      {
+        "number": 10,
+        "bookPage": 20,
+        "text": "A rainbow curved over Sunnyvale. The cloud gave a happy rumble, and Pip’s warm breath made one last tiny puff. It was not flame, but it had helped. Pip stood a little taller. Bravery, he discovered, could be a shaky wingbeat that keeps going for someone else.",
+        "artUrl": "/images/pages/page-020.webp",
+        "alt": "Pip's Small-Brave Flight: Sunnyvale after the rain beneath a curved rainbow."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Fern and the Kindness Seeds",
+    "theme": "Kindness",
+    "summary": "Small helpful acts bring a busy forest back together.",
+    "coverUrl": "/images/thumbnails/story-03.webp",
+    "pages": [
+      {
+        "number": 1,
+        "bookPage": 21,
+        "text": "Fern hopped through the wood and noticed that nobody was smiling. The squirrels hurried past. The robins forgot to sing. Even the old willow seemed to droop. “Perhaps everyone needs a little help,” Fern said, and opened her coral satchel.",
+        "artUrl": "/images/pages/page-021.webp",
+        "alt": "Fern and the Kindness Seeds: Fern enters a subdued woodland where neighbors hurry past and the old willow droops."
+      },
+      {
+        "number": 2,
+        "bookPage": 22,
+        "text": "A small snail was inching through the drizzle without cover. Fern held a broad leaf over them both. “You can borrow my umbrella,” she said. The snail smiled. “Then I’ll share my dry seed with someone hungry.” Fern’s eyes brightened at the idea.",
+        "artUrl": "/images/pages/page-022.webp",
+        "alt": "Fern and the Kindness Seeds: Drizzly woodland path beside clover."
+      },
+      {
+        "number": 3,
+        "bookPage": 23,
+        "text": "The snail found a bluebird beneath a branch. The bird nibbled the seed and sang one clear note. It sounded like a tiny bell. Fern listened, then tucked a few seeds into her pouch. The forest still looked gray, but the song felt like sunshine.",
+        "artUrl": "/images/pages/page-023.webp",
+        "alt": "Fern and the Kindness Seeds: A bluebird shelters beneath a branch and receives a seed from the snail."
+      },
+      {
+        "number": 4,
+        "bookPage": 24,
+        "text": "At the old stump, Fern found a thirsty hedgehog. She set down a cup of cool water and waited while he drank. “Thank you,” he sighed. Fern’s seed pouch rustled. She wondered if kindness could grow in the ground, just like seeds.",
+        "artUrl": "/images/pages/page-024.webp",
+        "alt": "Fern and the Kindness Seeds: The old stump on a woodland path."
+      },
+      {
+        "number": 5,
+        "bookPage": 25,
+        "text": "A gust swept through the trees. Fern’s pouch popped open, and little seeds skittered across the path. “Oh no!” she cried. Seeds rolled beneath leaves, around roots, and into the ferns. Fern tried to catch them, but there were too many.",
+        "artUrl": "/images/pages/page-025.webp",
+        "alt": "Fern and the Kindness Seeds: A gentle gust sweeps through the woodland path."
+      },
+      {
+        "number": 6,
+        "bookPage": 26,
+        "text": "The snail came back with the bluebird. The hedgehog waddled over too. Together, they searched beneath leaves and beside roots. “One here!” called the bird. “Two there!” said the snail. Fern’s worried face softened into a smile.",
+        "artUrl": "/images/pages/page-026.webp",
+        "alt": "Fern and the Kindness Seeds: Neighbors search the path for scattered seeds."
+      },
+      {
+        "number": 7,
+        "bookPage": 27,
+        "text": "Each neighbor planted one seed in a sunny patch. The snail patted the soil. The bird dropped a seed by the willow. The hedgehog made a neat little hole with one paw. Fern planted the last seed beside the path.",
+        "artUrl": "/images/pages/page-027.webp",
+        "alt": "Fern and the Kindness Seeds: A sunny patch around the old willow."
+      },
+      {
+        "number": 8,
+        "bookPage": 28,
+        "text": "By morning, a ring of tiny pink blossoms circled the old willow. Fern stepped through the flowers and found a hidden clearing inside the branches. “A meeting place!” she gasped. The neighbors followed, their eyes wide with wonder.",
+        "artUrl": "/images/pages/page-028.webp",
+        "alt": "Fern and the Kindness Seeds: Morning at the old willow, now ringed with tiny pink blossoms."
+      },
+      {
+        "number": 9,
+        "bookPage": 29,
+        "text": "The animals brought berry buns, songs, and stories to the clearing. The willow lifted its branches as if joining in. The bluebird sang. The snail told a very slow joke, and everyone laughed before it was finished.",
+        "artUrl": "/images/pages/page-029.webp",
+        "alt": "Fern and the Kindness Seeds: The newly discovered willow clearing filled with friendly neighbors."
+      },
+      {
+        "number": 10,
+        "bookPage": 30,
+        "text": "Fern watched the new blossoms nod in the breeze. A small kind act had traveled from one neighbor to another, then bloomed into a gathering place. She tucked a seed into her satchel for tomorrow. There would always be room for kindness to grow.",
+        "artUrl": "/images/pages/page-030.webp",
+        "alt": "Fern and the Kindness Seeds: Fern stands beside the willow as blossoms nod in a gentle breeze."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Stella Finds Her Own Spark",
+    "theme": "Confidence",
+    "summary": "A little star learns that her own quiet glow can guide the way.",
+    "coverUrl": "/images/thumbnails/story-04.webp",
+    "pages": [
+      {
+        "number": 1,
+        "bookPage": 31,
+        "text": "Stella was a little star in a sky full of grand, glittering stars. “Look how brightly they shine,” she sighed. Stella’s own light was small and lavender-soft. She tried to copy their sparkle, but her glow only blinked in its own gentle rhythm.",
+        "artUrl": "/images/pages/page-031.webp",
+        "alt": "Stella Finds Her Own Spark: broad night sky filled with grand glittering stars."
+      },
+      {
+        "number": 2,
+        "bookPage": 32,
+        "text": "She squeezed her points and shone as hard as she could. For one bright moment, she blazed. Then she felt tired and dim. “Maybe I’m not a very good star,” Stella whispered. The moon tucked a silver cloud beneath her, like a soft pillow.",
+        "artUrl": "/images/pages/page-032.webp",
+        "alt": "Stella Finds Her Own Spark: quiet patch of sky beside a soft silver cloud."
+      },
+      {
+        "number": 3,
+        "bookPage": 33,
+        "text": "Below, a tiny moth fluttered over the garden. The clouds had covered the moon, and the path home looked the same in every direction. “Which way?” the moth wondered. Stella noticed the little wings trembling. She wished she could help.",
+        "artUrl": "/images/pages/page-033.webp",
+        "alt": "Stella Finds Her Own Spark: moon-covered garden path below drifting clouds."
+      },
+      {
+        "number": 4,
+        "bookPage": 34,
+        "text": "Stella watched her own light. Blink… glow… blink… glow. It was not a flash like the big stars. It was a steady, friendly beat. Her lavender shimmer painted a tiny circle on the cloud beneath her.",
+        "artUrl": "/images/pages/page-034.webp",
+        "alt": "Stella Finds Her Own Spark: Stella studies her light while resting above a cloud."
+      },
+      {
+        "number": 5,
+        "bookPage": 35,
+        "text": "“What if the moth wants a brighter star?” Stella worried. The moth looked up and saw her. “Your light is just the right size,” it called. Stella’s cheeks warmed. She let her glow pulse gently once more.",
+        "artUrl": "/images/pages/page-035.webp",
+        "alt": "Stella Finds Her Own Spark: moth sees Stella from the garden path."
+      },
+      {
+        "number": 6,
+        "bookPage": 36,
+        "text": "The moth followed Stella’s steady rhythm across the sky. Each soft blink made the garden path easier to see. Stella floated slowly, keeping the moth in view. “I can do this,” she said, and her light grew calm and clear.",
+        "artUrl": "/images/pages/page-036.webp",
+        "alt": "Stella Finds Her Own Spark: Stella guides the moth across the sky above a garden path."
+      },
+      {
+        "number": 7,
+        "bookPage": 37,
+        "text": "A drifting cloud slid between Stella and the garden. For a moment, the path vanished again. Stella moved to the cloud’s edge and pulsed her glow. The moth turned toward the light. “There you are!” Stella called.",
+        "artUrl": "/images/pages/page-037.webp",
+        "alt": "Stella Finds Her Own Spark: drifting cloud crosses the route between Stella and the garden."
+      },
+      {
+        "number": 8,
+        "bookPage": 38,
+        "text": "One tiny star joined Stella’s rhythm. Then another. Soon, little lights blinked in a gentle line across the clouds. The moth followed the sparkling path, no longer alone beneath the dark blue sky.",
+        "artUrl": "/images/pages/page-038.webp",
+        "alt": "Stella Finds Her Own Spark: tiny stars join Stella's steady pulse across the cloudbank."
+      },
+      {
+        "number": 9,
+        "bookPage": 39,
+        "text": "The moth reached a flower-filled window ledge. It waved both wings toward Stella. “Thank you for showing me the way!” Stella’s glow shimmered lavender and gold. The moon peeked out, smiling at the little star.",
+        "artUrl": "/images/pages/page-039.webp",
+        "alt": "Stella Finds Her Own Spark: a flower-filled window ledge at the end of the garden path."
+      },
+      {
+        "number": 10,
+        "bookPage": 40,
+        "text": "Stella looked at the grand stars overhead, then at the small lights beside her. She did not need to shine like anyone else. Her own gentle rhythm had helped a friend find home. Stella glowed softly, proud of her very own spark.",
+        "artUrl": "/images/pages/page-040.webp",
+        "alt": "Stella Finds Her Own Spark: Stella floats among grand stars and her new tiny-star friends."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Bramble's Blueberry Oops",
+    "theme": "Honesty",
+    "summary": "A playful raccoon tells the truth and helps turn a mishap into art.",
+    "coverUrl": "/images/thumbnails/story-05.webp",
+    "pages": [
+      {
+        "number": 1,
+        "bookPage": 41,
+        "text": "Bramble loved the woodland fair: music, bunting, and blueberry buns. He carried a bowl of berries toward the painters making a welcome banner. “Careful,” called his friend Wren. “I am the carefulest raccoon in the wood!” Bramble grinned, and the berries wobbled.",
+        "artUrl": "/images/pages/page-041.webp",
+        "alt": "Bramble's Blueberry Oops: a lively village fair at late afternoon."
+      },
+      {
+        "number": 2,
+        "bookPage": 42,
+        "text": "The painters brushed bright flowers onto the banner. Bramble watched, then began to juggle three berries. Up, down, up! He bowed to the crowd. One berry bounced off his nose. The bowl tipped, and the berries rolled toward the wet paint.",
+        "artUrl": "/images/pages/page-042.webp",
+        "alt": "Bramble's Blueberry Oops: near the painters' table."
+      },
+      {
+        "number": 3,
+        "bookPage": 43,
+        "text": "Plop! Splash! Blueberry juice spotted the banner in big purple splashes. Bramble froze. The painters stared at the cloth. “Oh,” he whispered. The wind fluttered the banner, but Bramble knew the berries had tipped because he was showing off.",
+        "artUrl": "/images/pages/page-043.webp",
+        "alt": "Bramble's Blueberry Oops: the berry bowl spills beside the wet banner."
+      },
+      {
+        "number": 4,
+        "bookPage": 44,
+        "text": "Bramble thought about saying, “The wind did it.” His red neckerchief felt too tight. He looked at the paintbrushes, then at the berry bowl. His friends were not angry. They were waiting to understand what had happened.",
+        "artUrl": "/images/pages/page-044.webp",
+        "alt": "Bramble's Blueberry Oops: beside the banner as it flutters lightly in the breeze."
+      },
+      {
+        "number": 5,
+        "bookPage": 45,
+        "text": "“Where did all the berries go?” asked Wren. A little mouse searched beneath the table. Bramble’s tummy squeezed into a knot. He could hide behind the bunting. Or he could tell the truth and help.",
+        "artUrl": "/images/pages/page-045.webp",
+        "alt": "Bramble's Blueberry Oops: under the painters' table."
+      },
+      {
+        "number": 6,
+        "bookPage": 46,
+        "text": "“I spilled them,” Bramble said. “I was juggling, and I’m sorry.” Wren nodded. “Thank you for telling us. Let’s see what we can make.” Bramble’s shoulders relaxed. Together, they picked up the berries and looked at the purple-spotted banner.",
+        "artUrl": "/images/pages/page-046.webp",
+        "alt": "Bramble's Blueberry Oops: Bramble stands beside the purple-spotted banner with friends."
+      },
+      {
+        "number": 7,
+        "bookPage": 47,
+        "text": "“Those splashes look like a night sky,” said the mouse. “And these could be flowers,” added Wren. The painters dipped their brushes into gold and green. Bramble watched the oops become a picture. A grin returned to his face.",
+        "artUrl": "/images/pages/page-047.webp",
+        "alt": "Bramble's Blueberry Oops: the group imagines a new design on the banner."
+      },
+      {
+        "number": 8,
+        "bookPage": 48,
+        "text": "Bramble carefully stamped little blueberry circles around the purple splashes. The mouse painted tiny stars between them. Wren added leaves and curling vines. The banner became a bright garden beneath a midnight sky, with berries in every corner.",
+        "artUrl": "/images/pages/page-048.webp",
+        "alt": "Bramble's Blueberry Oops: close view of the banner as it becomes a garden night sky."
+      },
+      {
+        "number": 9,
+        "bookPage": 49,
+        "text": "At sunset, the fair opened beneath the new banner. Children pointed at the blueberry stars. Bramble carried a fresh bowl with both paws. “No juggling today,” he laughed. His friends saved him a blueberry bun.",
+        "artUrl": "/images/pages/page-049.webp",
+        "alt": "Bramble's Blueberry Oops: woodland fair opens at sunset under the finished banner."
+      },
+      {
+        "number": 10,
+        "bookPage": 50,
+        "text": "Bramble admired the banner, then thanked his friends for helping. Telling the truth had let everyone fix the mess together. He tied his red neckerchief loosely and took one careful bite of his bun. It was delicious—and stayed on the plate.",
+        "artUrl": "/images/pages/page-050.webp",
+        "alt": "Bramble's Blueberry Oops: after the fair beneath the completed banner."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "The Bell Beneath Bluebell Pond",
+    "theme": "Teamwork",
+    "summary": "Four unlikely friends combine what they know to find a missing pond bell.",
+    "coverUrl": "/images/thumbnails/story-06.webp",
+    "pages": [
+      {
+        "number": 1,
+        "bookPage": 51,
+        "text": "Bluebell Pond was quiet. The old festival bell had not rung all morning. “Without its song, how will everyone know the water-lily party is ready?” asked Juniper. She peered beneath the lily pads. A tiny silver glimmer winked from the deep water.",
+        "artUrl": "/images/pages/page-051.webp",
+        "alt": "The Bell Beneath Bluebell Pond: Bluebell Pond on the morning of its water-lily festival."
+      },
+      {
+        "number": 2,
+        "bookPage": 52,
+        "text": "Juniper leaned close and listened. Ting… ting… came a faint sound from below. “The bell is down there!” she said. Her yellow rain hat slipped over one eye. Bix the beaver hurried over with his tool belt. “I can build a raft!”",
+        "artUrl": "/images/pages/page-052.webp",
+        "alt": "The Bell Beneath Bluebell Pond: pond edge beside lily pads."
+      },
+      {
+        "number": 3,
+        "bookPage": 53,
+        "text": "Bix made a sturdy floating platform from smooth planks. Juniper hopped aboard, but the platform stopped far from the glimmer. “We need a longer way,” Bix said. Sol the heron rose into the air and circled the pond, searching from above.",
+        "artUrl": "/images/pages/page-053.webp",
+        "alt": "The Bell Beneath Bluebell Pond: a small plank platform floats on the pond."
+      },
+      {
+        "number": 4,
+        "bookPage": 54,
+        "text": "From high over the water, Sol spotted a narrow path between the reeds. “There’s a shallow channel on the far side!” she called. But the reeds were thick, and the path twisted out of sight. Bix frowned at his map. “Which way should we go?”",
+        "artUrl": "/images/pages/page-054.webp",
+        "alt": "The Bell Beneath Bluebell Pond: aerial view over a thick ring of reeds."
+      },
+      {
+        "number": 5,
+        "bookPage": 55,
+        "text": "Midge the little field mouse squeezed beneath a root. “I found a tunnel!” she squeaked. It led to a small dry nook beside the bell rope. Midge could reach the rope, but it was tangled around a root. She needed help pulling it free.",
+        "artUrl": "/images/pages/page-055.webp",
+        "alt": "The Bell Beneath Bluebell Pond: a dry nook beneath a pond-side root."
+      },
+      {
+        "number": 6,
+        "bookPage": 56,
+        "text": "Everyone had a different idea. Bix wanted to push the raft. Sol wanted to follow the reed channel. Midge pointed toward the tunnel. They began talking all at once. Juniper raised one green hand. “Let’s listen to every clue first.”",
+        "artUrl": "/images/pages/page-056.webp",
+        "alt": "The Bell Beneath Bluebell Pond: pond dock where friends discuss routes."
+      },
+      {
+        "number": 7,
+        "bookPage": 57,
+        "text": "Midge explained where the rope was stuck. Sol traced the shallow channel with one long wing. Bix showed how the raft could carry them over the deepest water. Juniper repeated each idea. The friends began to see how the pieces might fit.",
+        "artUrl": "/images/pages/page-057.webp",
+        "alt": "The Bell Beneath Bluebell Pond: friends gather around the simple pond map."
+      },
+      {
+        "number": 8,
+        "bookPage": 58,
+        "text": "Bix guided the raft to the reed channel. Sol flew ahead to show the safest turns. Juniper paddled beside the platform, and Midge crawled through the dry tunnel to the rope. Together, they tugged. The bell lifted with a silvery wobble.",
+        "artUrl": "/images/pages/page-058.webp",
+        "alt": "The Bell Beneath Bluebell Pond: a coordinated rescue at the reed channel."
+      },
+      {
+        "number": 9,
+        "bookPage": 59,
+        "text": "Ting-a-ling! The bell rang across Bluebell Pond. Water lilies bobbed, frogs cheered, and ducks paddled in a happy circle. The friends tied the bell safely above the dock. Sunlight danced on the water like tiny bells.",
+        "artUrl": "/images/pages/page-059.webp",
+        "alt": "The Bell Beneath Bluebell Pond: Bluebell Pond festival begins."
+      },
+      {
+        "number": 10,
+        "bookPage": 60,
+        "text": "At the festival, Juniper, Bix, Sol, and Midge shared how they found the bell. “Each of us noticed something different,” said Juniper. Their teamwork had made a path no one could see alone. The pond rang with music all afternoon.",
+        "artUrl": "/images/pages/page-060.webp",
+        "alt": "The Bell Beneath Bluebell Pond: late afternoon at the festival beside the ringing bell."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Niko’s Whirly-Wonder Workshop",
+    "theme": "Creativity",
+    "summary": "A young inventor keeps tinkering until his idea brings music to a festival.",
+    "coverUrl": "/images/thumbnails/story-07.webp",
+    "pages": [
+      {
+        "number": 1,
+        "bookPage": 61,
+        "text": "On festival morning, Niko the young fox found every village flag hanging limp. The air was still as a sleepy pond. “A festival needs a little music,” he said. He looked at the quiet ribbons and wondered whether a clever machine could invite the breeze to play.",
+        "artUrl": "/images/pages/page-061.webp",
+        "alt": "Niko’s Whirly-Wonder Workshop: quiet village square on festival morning."
+      },
+      {
+        "number": 2,
+        "bookPage": 62,
+        "text": "Niko sketched a whirly-wonder: bright sails, tiny bells, and a turning wheel. “When the wind arrives, it will make a song!” he imagined. His ears perked beneath his round goggles. He gathered sticks, string, and shiny scraps, eager to begin.",
+        "artUrl": "/images/pages/page-062.webp",
+        "alt": "Niko’s Whirly-Wonder Workshop: Niko's cozy workshop."
+      },
+      {
+        "number": 3,
+        "bookPage": 63,
+        "text": "His first machine grew taller than the garden gate. Niko pushed it outside. The frame wobbled, leaned, and sank into the soft grass with a gentle plop. Niko sighed. “That was too heavy.” He picked up his sketch and searched for a lighter idea.",
+        "artUrl": "/images/pages/page-063.webp",
+        "alt": "Niko’s Whirly-Wonder Workshop: garden beside workshop."
+      },
+      {
+        "number": 4,
+        "bookPage": 64,
+        "text": "A curious bluebird named Tilly fluttered down with one soft feather. The baker brought an empty paper tube. “These are light,” they said. Niko smiled. He thanked them and studied the feather. Perhaps his machine did not need to be big to make something wonderful.",
+        "artUrl": "/images/pages/page-064.webp",
+        "alt": "Niko’s Whirly-Wonder Workshop: workshop garden path."
+      },
+      {
+        "number": 5,
+        "bookPage": 65,
+        "text": "Niko made a small pinwheel from the paper tube and feather. A shy puff of air turned its petals. Ting! A tiny bell chimed once. Niko’s eyes grew round. “It works!” The little sound was not loud, but it made the whole workshop feel brighter.",
+        "artUrl": "/images/pages/page-065.webp",
+        "alt": "Niko’s Whirly-Wonder Workshop: close view at Niko's workbench."
+      },
+      {
+        "number": 6,
+        "bookPage": 66,
+        "text": "Just as Niko carried the pinwheel toward the festival, one paper petal slipped loose. A breeze caught it and twirled it over the garden fence. Niko watched it disappear. The festival would begin soon, and the whirly-wonder still needed its missing piece.",
+        "artUrl": "/images/pages/page-066.webp",
+        "alt": "Niko’s Whirly-Wonder Workshop: path toward festival square."
+      },
+      {
+        "number": 7,
+        "bookPage": 67,
+        "text": "Niko hurried to the village square. “Will you help me look?” he asked. He showed everyone his sketch and explained how the feather and tube made the wheel turn. Neighbors stopped decorating and joined the search, checking paths, flower beds, and fence corners.",
+        "artUrl": "/images/pages/page-067.webp",
+        "alt": "Niko’s Whirly-Wonder Workshop: village square."
+      },
+      {
+        "number": 8,
+        "bookPage": 68,
+        "text": "Tilly spotted the petal beside a marigold. The baker brought more paper tubes, and neighbors tied them with soft string. Niko rebuilt the wheel with smaller, lighter pieces. Everyone tested one part at a time, listening for a clear, happy chime.",
+        "artUrl": "/images/pages/page-068.webp",
+        "alt": "Niko’s Whirly-Wonder Workshop: village workshop table outside."
+      },
+      {
+        "number": 9,
+        "bookPage": 69,
+        "text": "A gentle breeze slipped through the square. The whirly-wonder spun, and its little bells made a tinkly tune. Flags lifted and fluttered overhead. Children clapped softly so they could hear every note. Niko grinned as the whole festival seemed to dance.",
+        "artUrl": "/images/pages/page-069.webp",
+        "alt": "Niko’s Whirly-Wonder Workshop: decorated village square."
+      },
+      {
+        "number": 10,
+        "bookPage": 70,
+        "text": "“Your idea began the song,” said Tilly. “And everyone helped it grow,” Niko replied. He had learned that a first try could be a beginning, not the end. As the flags waved, neighbors shared music made from one small idea and many kind hands.",
+        "artUrl": "/images/pages/page-070.webp",
+        "alt": "Niko’s Whirly-Wonder Workshop: golden late afternoon after the song begins."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Lina’s Pocketful of Everyday Treasures",
+    "theme": "Gratitude",
+    "summary": "Lina discovers the little treasures hidden inside an ordinary day.",
+    "coverUrl": "/images/thumbnails/story-08.webp",
+    "pages": [
+      {
+        "number": 1,
+        "bookPage": 71,
+        "text": "Rain tapped Lina’s window all afternoon. She pressed her nose to the glass. “I wanted a grand adventure,” she sighed. Grandma sat beside her with a warm blanket. “Maybe an adventure is already here,” she said. Lina peered outside, but the gray street looked ordinary.",
+        "artUrl": "/images/pages/page-071.webp",
+        "alt": "Lina’s Pocketful of Everyday Treasures: cozy living room by a rain-speckled window."
+      },
+      {
+        "number": 2,
+        "bookPage": 72,
+        "text": "Grandma brought a small blue notebook and a pencil. “Let’s collect tiny treasures,” she suggested. “A smell, a sound, a kind thing, anything that makes you smile.” Lina opened to a clean page. “Do treasures have to be shiny?” she asked. “Not at all,” Grandma replied.",
+        "artUrl": "/images/pages/page-072.webp",
+        "alt": "Lina’s Pocketful of Everyday Treasures: living room table."
+      },
+      {
+        "number": 3,
+        "bookPage": 73,
+        "text": "In the kitchen, warm bread made the room smell cozy. Lina drew a little loaf in her notebook. Then she watched a raindrop race another down the window. “That one won!” she cheered. Grandma laughed, and Lina added two wiggly drops beside her bread.",
+        "artUrl": "/images/pages/page-073.webp",
+        "alt": "Lina’s Pocketful of Everyday Treasures: warm kitchen beside a rain-streaked window."
+      },
+      {
+        "number": 4,
+        "bookPage": 74,
+        "text": "On the porch, a puddle reflected Lina’s upside-down face. Her curls pointed toward the clouds, and her smile looked like a crescent moon. Grandma leaned over too. Their silly reflections made them giggle until the rain seemed to sing along.",
+        "artUrl": "/images/pages/page-074.webp",
+        "alt": "Lina’s Pocketful of Everyday Treasures: covered front porch with a shallow puddle."
+      },
+      {
+        "number": 5,
+        "bookPage": 75,
+        "text": "The bus was late, and Lina’s boots began to feel heavy. “This waiting is taking forever,” she grumbled. Grandma checked the quiet street. Lina tapped her pencil against the notebook, but she could not think of any treasure in standing still.",
+        "artUrl": "/images/pages/page-075.webp",
+        "alt": "Lina’s Pocketful of Everyday Treasures: sheltered bus stop on a rainy street."
+      },
+      {
+        "number": 6,
+        "bookPage": 76,
+        "text": "Then Lina noticed a neighbor hurrying toward the bus stop without an umbrella. Another neighbor scooted over and shared a wide, colorful one. They walked together beneath it, laughing as they dodged the puddles. Grandma gave Lina a gentle nudge toward her notebook.",
+        "artUrl": "/images/pages/page-076.webp",
+        "alt": "Lina’s Pocketful of Everyday Treasures: sidewalk near bus stop."
+      },
+      {
+        "number": 7,
+        "bookPage": 77,
+        "text": "Lina drew the two neighbors under their bright umbrella. Just then, one waved to her from the sidewalk. Lina waved back. “A kind thing and a kind wave!” she said. The page was no longer empty. Her waiting felt a little lighter.",
+        "artUrl": "/images/pages/page-077.webp",
+        "alt": "Lina’s Pocketful of Everyday Treasures: same sidewalk, rain easing."
+      },
+      {
+        "number": 8,
+        "bookPage": 78,
+        "text": "Grandma folded a paper boat from a grocery list’s blank side. Lina added a tiny blue flag. They set it in a gentle stream beside the curb and watched it sail safely along the shallow gutter. It bobbed past leaves like a brave little captain.",
+        "artUrl": "/images/pages/page-078.webp",
+        "alt": "Lina’s Pocketful of Everyday Treasures: curbside shallow gutter stream after rain."
+      },
+      {
+        "number": 9,
+        "bookPage": 79,
+        "text": "At home, Lina read her notebook aloud: warm bread, racing raindrops, funny faces, a shared umbrella, and a tiny boat. Grandma listened, smiling. “That is quite a collection,” she said. Lina turned each page carefully, surprised by how much the day had held.",
+        "artUrl": "/images/pages/page-079.webp",
+        "alt": "Lina’s Pocketful of Everyday Treasures: home living room after the rain."
+      },
+      {
+        "number": 10,
+        "bookPage": 80,
+        "text": "The rain softened to a whisper. Lina looked out at the ordinary street again. Now it seemed full of small wonders waiting to be noticed. She tucked the notebook beside her bed. “Tomorrow, I’ll look for more,” she said, already dreaming of little treasures.",
+        "artUrl": "/images/pages/page-080.webp",
+        "alt": "Lina’s Pocketful of Everyday Treasures: Lina's bedroom at twilight after the rain."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Tova’s Hilltop Morning",
+    "theme": "Perseverance",
+    "summary": "A determined turtle reaches her sunrise dream one steady step at a time.",
+    "coverUrl": "/images/thumbnails/story-09.webp",
+    "pages": [
+      {
+        "number": 1,
+        "bookPage": 81,
+        "text": "Tova the little turtle loved watching the sunrise. Tomorrow, she decided, she would see the first golden light from the hilltop bell. She packed a soft snack and told her friends. “We’ll meet you there!” they cheered, already bouncing down the path.",
+        "artUrl": "/images/pages/page-081.webp",
+        "alt": "Tova’s Hilltop Morning: woodland cottage garden at dusk before the sunrise walk."
+      },
+      {
+        "number": 2,
+        "bookPage": 82,
+        "text": "Her friends hurried ahead, their feet pattering over the trail. Tova smiled and started at her own comfortable pace. Step, step, breathe. The hill was still there, and so was the morning. She did not need to race to make the journey count.",
+        "artUrl": "/images/pages/page-082.webp",
+        "alt": "Tova’s Hilltop Morning: winding hill path at dawn."
+      },
+      {
+        "number": 3,
+        "bookPage": 83,
+        "text": "Pebbles covered the next part of the path. Tova moved carefully, but the stones made her feet tired. She found a warm sunlit rock and rested beside it. From there, she could see the hilltop bell shining faintly against the early sky.",
+        "artUrl": "/images/pages/page-083.webp",
+        "alt": "Tova’s Hilltop Morning: pebble-covered trail."
+      },
+      {
+        "number": 4,
+        "bookPage": 84,
+        "text": "An ant carrying a crumb marched by. “Is there a safer way around the loose stones?” Tova asked. The ant pointed toward a path beside the grass. It curved farther around the hill, but its ground looked smooth and steady. Tova thanked her and began again.",
+        "artUrl": "/images/pages/page-084.webp",
+        "alt": "Tova’s Hilltop Morning: fork around a loose-stone patch."
+      },
+      {
+        "number": 5,
+        "bookPage": 85,
+        "text": "A light drizzle began as Tova reached the final slope. The stones looked shiny and slippery. She stopped at the bottom and watched the rain gather in tiny beads. The bell was close, but Tova knew she could choose a safer way.",
+        "artUrl": "/images/pages/page-085.webp",
+        "alt": "Tova’s Hilltop Morning: bottom of the final hill slope."
+      },
+      {
+        "number": 6,
+        "bookPage": 86,
+        "text": "Tova checked her footing and chose the longer grassy turn. Soft earth held her steps. When the path grew steep, she paused, took a breath, and moved on. The drizzle tapped her shell like a quiet drum, keeping time with every careful step.",
+        "artUrl": "/images/pages/page-086.webp",
+        "alt": "Tova’s Hilltop Morning: longer grassy path around the hill."
+      },
+      {
+        "number": 7,
+        "bookPage": 87,
+        "text": "From somewhere above came a gentle chime. The hilltop bell was ringing in the breeze. Tova lifted her head. Her friends must have reached the top, but she was not too late. She followed the grassy bend, one steady step at a time.",
+        "artUrl": "/images/pages/page-087.webp",
+        "alt": "Tova’s Hilltop Morning: uphill grassy bend."
+      },
+      {
+        "number": 8,
+        "bookPage": 88,
+        "text": "At the last bend, the sun peeked over the horizon. Gold spread across the hills, the wet grass, and Tova’s shell. She stopped to watch. The sunrise had waited for no one, yet it seemed to glow just for her.",
+        "artUrl": "/images/pages/page-088.webp",
+        "alt": "Tova’s Hilltop Morning: final bend opening to the sunrise."
+      },
+      {
+        "number": 9,
+        "bookPage": 89,
+        "text": "Tova reached the bell as her friends waved from the hilltop. She rang it once, then sat beside them to share her snack. Together they watched the clouds turn peach and pink. “You made it!” they said. “I took the path that worked for me,” Tova replied.",
+        "artUrl": "/images/pages/page-089.webp",
+        "alt": "Tova’s Hilltop Morning: hilltop at sunrise."
+      },
+      {
+        "number": 10,
+        "bookPage": 90,
+        "text": "On the way home, Tova felt proud—not because she had been first, but because she kept choosing her next step. The path had stones, rain, a rest, and a helpful ant. She carried the sunrise in her heart, one careful step at a time.",
+        "artUrl": "/images/pages/page-090.webp",
+        "alt": "Tova’s Hilltop Morning: gentle path home in bright morning."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Luma’s Map of Home",
+    "theme": "Family",
+    "summary": "A young fox learns that home grows wherever her family cares for one another.",
+    "coverUrl": "/images/thumbnails/story-10.webp",
+    "pages": [
+      {
+        "number": 1,
+        "bookPage": 91,
+        "text": "Luma’s family packed their burrow into baskets. Tomorrow they would move to a new den beyond the creek. Papa rolled the old lantern in a blanket. Mama packed the family cups. Luma held her notebook close. “Will our home come with us?” she wondered.",
+        "artUrl": "/images/pages/page-091.webp",
+        "alt": "Luma’s Map of Home: familiar old burrow living room."
+      },
+      {
+        "number": 2,
+        "bookPage": 92,
+        "text": "That night, Luma listened to the burrow’s familiar sounds: the kettle’s soft hum, Mama’s humming, and Olli’s sleepy sigh. She loved the smell of bread and cedar, too. “What if the new den feels too different?” she whispered. Mama squeezed her paw.",
+        "artUrl": "/images/pages/page-092.webp",
+        "alt": "Luma’s Map of Home: final evening in the old burrow."
+      },
+      {
+        "number": 3,
+        "bookPage": 93,
+        "text": "In her notebook, Luma drew a tiny star beside each memory. As she drew, the stars seemed to glow softly on the page. One marked the old oak, one the bakery, one the creek. “A map of the things we love,” she said.",
+        "artUrl": "/images/pages/page-093.webp",
+        "alt": "Luma’s Map of Home: close view at Luma's writing nook."
+      },
+      {
+        "number": 4,
+        "bookPage": 94,
+        "text": "The family followed Luma’s map toward the new den. They waved to the old oak, smelled warm bread outside the bakery, and paused by the creek. Each familiar place made the journey feel gentler. Luma added a small star whenever a happy memory came to mind.",
+        "artUrl": "/images/pages/page-094.webp",
+        "alt": "Luma’s Map of Home: woodland trail during the family move."
+      },
+      {
+        "number": 5,
+        "bookPage": 95,
+        "text": "By the creek, Olli’s little paws grew tired. Luma sat beside him and sang the family’s quiet walking song. Mama joined, then Papa. Their voices rose and fell together, and Olli smiled. He stood up again, ready to walk the last part with them.",
+        "artUrl": "/images/pages/page-095.webp",
+        "alt": "Luma’s Map of Home: safe path beside the creek."
+      },
+      {
+        "number": 6,
+        "bookPage": 96,
+        "text": "The new den smelled of cool earth and rain. Its corners looked unfamiliar. Luma set down her notebook, feeling small. Then Mama hung their old lantern by the doorway. Its warm glow filled the room, and the family’s familiar shadows danced on the walls.",
+        "artUrl": "/images/pages/page-096.webp",
+        "alt": "Luma’s Map of Home: inside the new den."
+      },
+      {
+        "number": 7,
+        "bookPage": 97,
+        "text": "That evening, Papa tucked Olli beneath a soft quilt and told their favorite bedtime story. Mama set the cups beside the little stove. Luma listened from her new bed. The voices, the story, and the lantern’s golden glow felt like a path through the dark.",
+        "artUrl": "/images/pages/page-097.webp",
+        "alt": "Luma’s Map of Home: first evening in new den."
+      },
+      {
+        "number": 8,
+        "bookPage": 98,
+        "text": "Luma opened her notebook and drew the family’s favorite moments: the old oak, warm bakery bread, the creek song, and the lantern in its new place. Her map now held old memories and new ones together. The glowing stars made her smile.",
+        "artUrl": "/images/pages/page-098.webp",
+        "alt": "Luma’s Map of Home: Luma draws at a low table in new den."
+      },
+      {
+        "number": 9,
+        "bookPage": 99,
+        "text": "Olli leaned over the notebook and added a star beside the new den. “This is one of my favorite places now,” he said. Then he snuggled beside Luma and asked Papa for one more story. Their laughter made the new room feel cozy.",
+        "artUrl": "/images/pages/page-099.webp",
+        "alt": "Luma’s Map of Home: new den living room under lantern."
+      },
+      {
+        "number": 10,
+        "bookPage": 100,
+        "text": "Luma looked at the map, then at her family sharing stories beneath the old lantern. Home was not only one burrow or one path. It grew wherever they listened, helped, sang, and cared for one another. She drew one last bright star around them all.",
+        "artUrl": "/images/pages/page-100.webp",
+        "alt": "Luma’s Map of Home: final family portrait in the new den."
+      }
+    ]
+  }
+]

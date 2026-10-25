@@ -1,0 +1,128 @@
+{
+  "model": "hexgrad/Kokoro-82M",
+  "license": "Apache-2.0",
+  "voice": "af_heart",
+  "speed": 0.96,
+  "pages": {
+    "1": {
+      "1": "/audio/narration/story-01-page-01.mp3",
+      "2": "/audio/narration/story-01-page-02.mp3",
+      "3": "/audio/narration/story-01-page-03.mp3",
+      "4": "/audio/narration/story-01-page-04.mp3",
+      "5": "/audio/narration/story-01-page-05.mp3",
+      "6": "/audio/narration/story-01-page-06.mp3",
+      "7": "/audio/narration/story-01-page-07.mp3",
+      "8": "/audio/narration/story-01-page-08.mp3",
+      "9": "/audio/narration/story-01-page-09.mp3",
+      "10": "/audio/narration/story-01-page-10.mp3"
+    },
+    "2": {
+      "1": "/audio/narration/story-02-page-01.mp3",
+      "2": "/audio/narration/story-02-page-02.mp3",
+      "3": "/audio/narration/story-02-page-03.mp3",
+      "4": "/audio/narration/story-02-page-04.mp3",
+      "5": "/audio/narration/story-02-page-05.mp3",
+      "6": "/audio/narration/story-02-page-06.mp3",
+      "7": "/audio/narration/story-02-page-07.mp3",
+      "8": "/audio/narration/story-02-page-08.mp3",
+      "9": "/audio/narration/story-02-page-09.mp3",
+      "10": "/audio/narration/story-02-page-10.mp3"
+    },
+    "3": {
+      "1": "/audio/narration/story-03-page-01.mp3",
+      "2": "/audio/narration/story-03-page-02.mp3",
+      "3": "/audio/narration/story-03-page-03.mp3",
+      "4": "/audio/narration/story-03-page-04.mp3",
+      "5": "/audio/narration/story-03-page-05.mp3",
+      "6": "/audio/narration/story-03-page-06.mp3",
+      "7": "/audio/narration/story-03-page-07.mp3",
+      "8": "/audio/narration/story-03-page-08.mp3",
+      "9": "/audio/narration/story-03-page-09.mp3",
+      "10": "/audio/narration/story-03-page-10.mp3"
+    },
+    "4": {
+      "1": "/audio/narration/story-04-page-01.mp3",
+      "2": "/audio/narration/story-04-page-02.mp3",
+      "3": "/audio/narration/story-04-page-03.mp3",
+      "4": "/audio/narration/story-04-page-04.mp3",
+      "5": "/audio/narration/story-04-page-05.mp3",
+      "6": "/audio/narration/story-04-page-06.mp3",
+      "7": "/audio/narration/story-04-page-07.mp3",
+      "8": "/audio/narration/story-04-page-08.mp3",
+      "9": "/audio/narration/story-04-page-09.mp3",
+      "10": "/audio/narration/story-04-page-10.mp3"
+    },
+    "5": {
+      "1": "/audio/narration/story-05-page-01.mp3",
+      "2": "/audio/narration/story-05-page-02.mp3",
+      "3": "/audio/narration/story-05-page-03.mp3",
+      "4": "/audio/narration/story-05-page-04.mp3",
+      "5": "/audio/narration/story-05-page-05.mp3",
+      "6": "/audio/narration/story-05-page-06.mp3",
+      "7": "/audio/narration/story-05-page-07.mp3",
+      "8": "/audio/narration/story-05-page-08.mp3",
+      "9": "/audio/narration/story-05-page-09.mp3",
+      "10": "/audio/narration/story-05-page-10.mp3"
+    },
+    "6": {
+      "1": "/audio/narration/story-06-page-01.mp3",
+      "2": "/audio/narration/story-06-page-02.mp3",
+      "3": "/audio/narration/story-06-page-03.mp3",
+      "4": "/audio/narration/story-06-page-04.mp3",
+      "5": "/audio/narration/story-06-page-05.mp3",
+      "6": "/audio/narration/story-06-page-06.mp3",
+      "7": "/audio/narration/story-06-page-07.mp3",
+      "8": "/audio/narration/story-06-page-08.mp3",
+      "9": "/audio/narration/story-06-page-09.mp3",
+      "10": "/audio/narration/story-06-page-10.mp3"
+    },
+    "7": {
+      "1": "/audio/narration/story-07-page-01.mp3",
+      "2": "/audio/narration/story-07-page-02.mp3",
+      "3": "/audio/narration/story-07-page-03.mp3",
+      "4": "/audio/narration/story-07-page-04.mp3",
+      "5": "/audio/narration/story-07-page-05.mp3",
+      "6": "/audio/narration/story-07-page-06.mp3",
+      "7": "/audio/narration/story-07-page-07.mp3",
+      "8": "/audio/narration/story-07-page-08.mp3",
+      "9": "/audio/narration/story-07-page-09.mp3",
+      "10": "/audio/narration/story-07-page-10.mp3"
+    },
+    "8": {
+      "1": "/audio/narration/story-08-page-01.mp3",
+      "2": "/audio/narration/story-08-page-02.mp3",
+      "3": "/audio/narration/story-08-page-03.mp3",
+      "4": "/audio/narration/story-08-page-04.mp3",
+      "5": "/audio/narration/story-08-page-05.mp3",
+      "6": "/audio/narration/story-08-page-06.mp3",
+      "7": "/audio/narration/story-08-page-07.mp3",
+      "8": "/audio/narration/story-08-page-08.mp3",
+      "9": "/audio/narration/story-08-page-09.mp3",
+      "10": "/audio/narration/story-08-page-10.mp3"
+    },
+    "9": {
+      "1": "/audio/narration/story-09-page-01.mp3",
+      "2": "/audio/narration/story-09-page-02.mp3",
+      "3": "/audio/narration/story-09-page-03.mp3",
+      "4": "/audio/narration/story-09-page-04.mp3",
+      "5": "/audio/narration/story-09-page-05.mp3",
+      "6": "/audio/narration/story-09-page-06.mp3",
+      "7": "/audio/narration/story-09-page-07.mp3",
+      "8": "/audio/narration/story-09-page-08.mp3",
+      "9": "/audio/narration/story-09-page-09.mp3",
+      "10": "/audio/narration/story-09-page-10.mp3"
+    },
+    "10": {
+      "1": "/audio/narration/story-10-page-01.mp3",
+      "2": "/audio/narration/story-10-page-02.mp3",
+      "3": "/audio/narration/story-10-page-03.mp3",
+      "4": "/audio/narration/story-10-page-04.mp3",
+      "5": "/audio/narration/story-10-page-05.mp3",
+      "6": "/audio/narration/story-10-page-06.mp3",
+      "7": "/audio/narration/story-10-page-07.mp3",
+      "8": "/audio/narration/story-10-page-08.mp3",
+      "9": "/audio/narration/story-10-page-09.mp3",
+      "10": "/audio/narration/story-10-page-10.mp3"
+    }
+  }
+}
