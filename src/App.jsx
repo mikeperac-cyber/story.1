@@ -11,6 +11,7 @@ const STORAGE_KEYS = {
 };
 const WARM_NARRATOR_NAME = /(zira|samantha|aria|jenny|ava|emma|susan|rachel|amy|warm|gentle|friendly|story|child|kid)/i;
 const POLISHED_VOICE_NAME = /(natural|neural|enhanced|premium|studio)/i;
+const EMPTY_NARRATION_LINES = [];
 
 function readStorage(key, fallback) {
   try {
@@ -26,13 +27,29 @@ function clamp(value, min, max) {
 }
 
 const EMOTIONAL_DELIVERY = {
+  calm: { rate: 0.96, pitch: 1.03, pause: 230 },
+  cozy: { rate: 0.94, pitch: 1.02, pause: 250 },
+  curious: { rate: 0.97, pitch: 1.12, pause: 230 },
+  determined: { rate: 0.99, pitch: 1.05, pause: 190 },
+  disappointed: { rate: 0.92, pitch: 0.98, pause: 300 },
+  frustrated: { rate: 0.99, pitch: 1.02, pause: 210 },
+  grateful: { rate: 0.96, pitch: 1.05, pause: 250 },
+  hopeful: { rate: 0.95, pitch: 1.08, pause: 250 },
   nervous: { rate: 0.92, pitch: 1.02, pause: 285 },
   brave: { rate: 1.01, pitch: 1.08, pause: 200 },
   joyful: { rate: 1.05, pitch: 1.13, pause: 190 },
+  playful: { rate: 1.05, pitch: 1.12, pause: 180 },
+  proud: { rate: 0.99, pitch: 1.07, pause: 210 },
+  reassuring: { rate: 0.94, pitch: 0.99, pause: 260 },
+  relieved: { rate: 0.96, pitch: 1.04, pause: 250 },
+  shy: { rate: 0.92, pitch: 1.03, pause: 270 },
+  surprised: { rate: 1.02, pitch: 1.15, pause: 220 },
   wonder: { rate: 0.94, pitch: 1.15, pause: 280 },
-  curious: { rate: 0.97, pitch: 1.12, pause: 230 },
   tender: { rate: 0.94, pitch: 1.04, pause: 255 },
   thoughtful: { rate: 0.91, pitch: 1.01, pause: 300 },
+  urgent: { rate: 1.07, pitch: 1.08, pause: 170 },
+  wistful: { rate: 0.91, pitch: 0.99, pause: 300 },
+  worried: { rate: 0.93, pitch: 0.98, pause: 285 },
   neutral: { rate: 1, pitch: 1.05, pause: 165 },
 };
 
@@ -90,6 +107,7 @@ function stopAudioElement(audioRef) {
   if (!audio) return;
   audio.onplay = null;
   audio.onpause = null;
+  audio.ontimeupdate = null;
   audio.onended = null;
   audio.onerror = null;
   audio.pause();
@@ -172,6 +190,7 @@ export default function App() {
     : "offline";
   const currentNarrationAudio = narrationManifest.pages?.[String(activeStory.id)]?.[String(pageNumber)] ?? "";
   const currentNarrationMood = narrationManifest.emotions?.[String(activeStory.id)]?.[String(pageNumber)];
+  const currentNarrationLines = narrationManifest.line_emotions?.[String(activeStory.id)]?.[String(pageNumber)] ?? EMPTY_NARRATION_LINES;
 
   useEffect(() => {
     if (!("speechSynthesis" in window)) return undefined;
@@ -323,15 +342,28 @@ export default function App() {
       audio.preload = "auto";
       audio.playbackRate = settings.speechRate;
       narrationAudioRef.current = audio;
+      let lastLineIndex = -1;
+      const updateLineMessage = () => {
+        if (runId !== narrationRunRef.current || !currentNarrationLines.length) return;
+        const nextIndex = currentNarrationLines.findIndex((line) => audio.currentTime < line.end_seconds);
+        const lineIndex = nextIndex < 0 ? currentNarrationLines.length - 1 : nextIndex;
+        if (lineIndex === lastLineIndex) return;
+        lastLineIndex = lineIndex;
+        const mood = currentNarrationLines[lineIndex].mood;
+        const article = /^[aeiou]/i.test(mood) ? "an" : "a";
+        setAudioMessage(`Serena reads this line with ${article} ${mood} tone.`);
+      };
       audio.onplay = () => {
         if (runId !== narrationRunRef.current) return;
         setSpeechState("speaking");
-        setAudioMessage(
+        if (currentNarrationLines.length) updateLineMessage();
+        else setAudioMessage(
           currentNarrationMood
-            ? `Aiden is reading with ${currentNarrationMood} expression and gentle pitch changes.`
-            : "Aiden is reading with gentle, page-matched story emotions.",
+            ? `Serena is reading with ${currentNarrationMood} expression.`
+            : "Serena is reading with gentle story emotions.",
         );
       };
+      audio.ontimeupdate = updateLineMessage;
       audio.onpause = () => {
         if (runId !== narrationRunRef.current || audio.ended) return;
         setSpeechState("paused");
@@ -365,7 +397,13 @@ export default function App() {
       setAudioMessage("Read aloud is not supported by this browser.");
       return;
     }
-    const segments = splitNarration(currentPage.text);
+    const segments = currentNarrationLines.length
+      ? currentNarrationLines.map(({ text, mood }) => ({
+        text,
+        mood,
+        dialogue: /[“"][^”"]+[”"]/.test(text),
+      }))
+      : splitNarration(currentPage.text);
     const speakSegment = (index) => {
       if (runId !== narrationRunRef.current) return;
       if (index >= segments.length) {
@@ -374,7 +412,7 @@ export default function App() {
       }
 
       const segment = segments[index];
-      const delivery = EMOTIONAL_DELIVERY[segment.mood];
+      const delivery = EMOTIONAL_DELIVERY[segment.mood] ?? EMOTIONAL_DELIVERY.neutral;
       const utterance = new window.SpeechSynthesisUtterance(segment.text);
       utterance.lang = selectedVoice?.lang ?? "en-US";
       if (selectedVoice) utterance.voice = selectedVoice;
@@ -397,7 +435,7 @@ export default function App() {
     setAudioMessage("The device storyteller gently shifts pace and tone for curious, worried, joyful, brave, and tender lines.");
     setSpeechState("speaking");
     speakSegment(0);
-  }, [currentNarrationAudio, currentNarrationMood, currentPage.text, selectedVoice, selectedVoiceURI, settings.speechRate]);
+  }, [currentNarrationAudio, currentNarrationLines, currentNarrationMood, currentPage.text, selectedVoice, selectedVoiceURI, settings.speechRate]);
 
   const togglePause = useCallback(() => {
     const audio = narrationAudioRef.current;

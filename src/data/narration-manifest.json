@@ -1,12 +1,12 @@
 {
   "model": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
   "model_license": "Apache-2.0",
-  "speaker": "Aiden",
+  "speaker": "Serena",
   "language": "English",
   "device_used_for_generation": "cuda:0",
-  "batch_size": 8,
-  "style_version": "lanternberry-kid-storytime-v1",
-  "style": "Kid-friendly storytime with page-specific emotion, gentle pitch movement, clear diction, and unhurried pacing.",
+  "batch_size": 6,
+  "style_version": "lanternberry-serena-line-expression-v2",
+  "style": "Warm female storytime narration with curated sentence-level emotion, pitch, timing, and dialogue delivery.",
   "sample_rate": 24000,
   "format": "MP3, mono, 64 kbps",
   "pages": {
@@ -251,6 +251,3180 @@
       "8": "reflective joy",
       "9": "playful belonging",
       "10": "heartfelt warmth"
+    }
+  },
+  "line_emotions": {
+    "1": {
+      "1": [
+        {
+          "text": "At the edge of Bramblebright Wood, Tansy the hedgehog watched tiny green lights bob between the ferns.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 10.557
+        },
+        {
+          "text": "A picnic!",
+          "mood": "joyful",
+          "start_seconds": 10.757,
+          "end_seconds": 11.874
+        },
+        {
+          "text": "She tucked her paws beneath her chin.",
+          "mood": "shy",
+          "start_seconds": 12.154,
+          "end_seconds": 15.354
+        },
+        {
+          "text": "“I could go,” she whispered.",
+          "mood": "hopeful",
+          "start_seconds": 15.554,
+          "end_seconds": 18.194
+        },
+        {
+          "text": "Then a twig snapped, and she hurried back under the leaves.",
+          "mood": "surprised",
+          "start_seconds": 18.394,
+          "end_seconds": 22.794
+        }
+      ],
+      "2": [
+        {
+          "text": "Tansy liked quiet things: raindrops on mushrooms, warm tea, and beetles who did not ask questions.",
+          "mood": "cozy",
+          "start_seconds": 0.0,
+          "end_seconds": 8.4
+        },
+        {
+          "text": "She had never joined the firefly picnic.",
+          "mood": "wistful",
+          "start_seconds": 8.6,
+          "end_seconds": 11.32
+        },
+        {
+          "text": "From her fern hollow, she practiced, “Hello, may I sit with you?”",
+          "mood": "shy",
+          "start_seconds": 11.52,
+          "end_seconds": 16.96
+        },
+        {
+          "text": "Her voice sounded smaller than a moth’s sneeze.",
+          "mood": "playful",
+          "start_seconds": 17.24,
+          "end_seconds": 20.36
+        }
+      ],
+      "3": [
+        {
+          "text": "A silver-green ribbon fluttered past her doorway.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 3.595
+        },
+        {
+          "text": "It was an invitation, tied in a careful bow.",
+          "mood": "hopeful",
+          "start_seconds": 3.795,
+          "end_seconds": 6.915
+        },
+        {
+          "text": "“Everyone is welcome,” it read.",
+          "mood": "reassuring",
+          "start_seconds": 7.115,
+          "end_seconds": 9.27
+        },
+        {
+          "text": "Tansy held the ribbon close.",
+          "mood": "tender",
+          "start_seconds": 9.47,
+          "end_seconds": 11.55
+        },
+        {
+          "text": "Her tummy fluttered too.",
+          "mood": "nervous",
+          "start_seconds": 11.75,
+          "end_seconds": 13.67
+        },
+        {
+          "text": "She would bring her berry biscuits.",
+          "mood": "determined",
+          "start_seconds": 13.87,
+          "end_seconds": 16.03
+        },
+        {
+          "text": "Perhaps she could leave them and tiptoe home.",
+          "mood": "nervous",
+          "start_seconds": 16.23,
+          "end_seconds": 19.11
+        }
+      ],
+      "4": [
+        {
+          "text": "Tansy packed six biscuits in a leaf basket.",
+          "mood": "determined",
+          "start_seconds": 0.0,
+          "end_seconds": 3.52
+        },
+        {
+          "text": "On the path, she practiced saying hello to a beetle, then a sleepy snail.",
+          "mood": "shy",
+          "start_seconds": 3.72,
+          "end_seconds": 9.16
+        },
+        {
+          "text": "“Hello,” she said.",
+          "mood": "shy",
+          "start_seconds": 9.36,
+          "end_seconds": 11.2
+        },
+        {
+          "text": "The snail blinked.",
+          "mood": "curious",
+          "start_seconds": 11.4,
+          "end_seconds": 12.76
+        },
+        {
+          "text": "“Hello back.”",
+          "mood": "playful",
+          "start_seconds": 12.96,
+          "end_seconds": 13.92
+        },
+        {
+          "text": "Tansy smiled.",
+          "mood": "joyful",
+          "start_seconds": 14.12,
+          "end_seconds": 15.4
+        },
+        {
+          "text": "The words were still wobbly, but now they had made it outside.",
+          "mood": "proud",
+          "start_seconds": 15.6,
+          "end_seconds": 20.16
+        }
+      ],
+      "5": [
+        {
+          "text": "The picnic lights glimmered ahead—then vanished.",
+          "mood": "surprised",
+          "start_seconds": 0.0,
+          "end_seconds": 3.92
+        },
+        {
+          "text": "A soft fog curled between the trees.",
+          "mood": "worried",
+          "start_seconds": 4.12,
+          "end_seconds": 7.237
+        },
+        {
+          "text": "Tansy’s paws stopped.",
+          "mood": "nervous",
+          "start_seconds": 7.437,
+          "end_seconds": 9.277
+        },
+        {
+          "text": "The forest looked like a blanket pulled over its own ears.",
+          "mood": "worried",
+          "start_seconds": 9.477,
+          "end_seconds": 14.114
+        },
+        {
+          "text": "She could turn home.",
+          "mood": "nervous",
+          "start_seconds": 14.314,
+          "end_seconds": 16.074
+        },
+        {
+          "text": "But somewhere in the mist, a firefly gave a worried blink.",
+          "mood": "worried",
+          "start_seconds": 16.274,
+          "end_seconds": 20.754
+        }
+      ],
+      "6": [
+        {
+          "text": "“Is anyone there?” called a voice.",
+          "mood": "worried",
+          "start_seconds": 0.0,
+          "end_seconds": 2.714
+        },
+        {
+          "text": "Another voice answered from the wrong direction.",
+          "mood": "worried",
+          "start_seconds": 2.914,
+          "end_seconds": 5.628
+        },
+        {
+          "text": "The fireflies had scattered, and the guests could not find the clearing.",
+          "mood": "worried",
+          "start_seconds": 5.828,
+          "end_seconds": 10.148
+        },
+        {
+          "text": "Tansy knew the bracken path by heart.",
+          "mood": "thoughtful",
+          "start_seconds": 10.348,
+          "end_seconds": 12.988
+        },
+        {
+          "text": "Her paws shook, but she lifted the leaf basket and took one step.",
+          "mood": "brave",
+          "start_seconds": 13.188,
+          "end_seconds": 18.228
+        }
+      ],
+      "7": [
+        {
+          "text": "Tansy climbed a low stump.",
+          "mood": "determined",
+          "start_seconds": 0.0,
+          "end_seconds": 1.83
+        },
+        {
+          "text": "“I know a way!” she called, louder than before.",
+          "mood": "brave",
+          "start_seconds": 2.03,
+          "end_seconds": 5.703
+        },
+        {
+          "text": "Her voice trembled, yet it crossed the fog.",
+          "mood": "brave",
+          "start_seconds": 5.903,
+          "end_seconds": 9.503
+        },
+        {
+          "text": "She tied her saffron scarf to a branch beside the safe path.",
+          "mood": "brave",
+          "start_seconds": 9.703,
+          "end_seconds": 13.943
+        },
+        {
+          "text": "A green light blinked back.",
+          "mood": "determined",
+          "start_seconds": 14.143,
+          "end_seconds": 16.136
+        },
+        {
+          "text": "Then another answered.",
+          "mood": "hopeful",
+          "start_seconds": 16.336,
+          "end_seconds": 17.856
+        }
+      ],
+      "8": [
+        {
+          "text": "One by one, the guests followed the scarf-marked path.",
+          "mood": "reassuring",
+          "start_seconds": 0.0,
+          "end_seconds": 4.24
+        },
+        {
+          "text": "Tansy walked slowly, pointing out roots and puddles.",
+          "mood": "calm",
+          "start_seconds": 4.44,
+          "end_seconds": 8.6
+        },
+        {
+          "text": "“This way, please.”",
+          "mood": "reassuring",
+          "start_seconds": 8.8,
+          "end_seconds": 9.92
+        },
+        {
+          "text": "The rabbit, mouse, and fireflies stayed close together.",
+          "mood": "tender",
+          "start_seconds": 10.12,
+          "end_seconds": 14.68
+        },
+        {
+          "text": "The fog began to thin, and the picnic lanterns shone like warm little moons.",
+          "mood": "wonder",
+          "start_seconds": 14.88,
+          "end_seconds": 20.24
+        }
+      ],
+      "9": [
+        {
+          "text": "At last, everyone reached the clearing.",
+          "mood": "relieved",
+          "start_seconds": 0.0,
+          "end_seconds": 2.64
+        },
+        {
+          "text": "The rabbit made room on the blanket, and the mouse poured berry tea.",
+          "mood": "cozy",
+          "start_seconds": 2.84,
+          "end_seconds": 7.56
+        },
+        {
+          "text": "Tansy offered her biscuits.",
+          "mood": "tender",
+          "start_seconds": 7.76,
+          "end_seconds": 9.6
+        },
+        {
+          "text": "“I’m glad you came,” said the rabbit.",
+          "mood": "tender",
+          "start_seconds": 9.8,
+          "end_seconds": 12.593
+        },
+        {
+          "text": "Tansy’s smile grew wide enough to feel like a lantern of its own.",
+          "mood": "joyful",
+          "start_seconds": 12.793,
+          "end_seconds": 17.267
+        }
+      ],
+      "10": [
+        {
+          "text": "Later, Tansy walked home with new friends beside her.",
+          "mood": "cozy",
+          "start_seconds": 0.0,
+          "end_seconds": 4.32
+        },
+        {
+          "text": "The fireflies floated overhead, lighting the path in green and gold.",
+          "mood": "wonder",
+          "start_seconds": 4.52,
+          "end_seconds": 9.794
+        },
+        {
+          "text": "“Will you come next time?” asked the mouse.",
+          "mood": "curious",
+          "start_seconds": 9.994,
+          "end_seconds": 12.714
+        },
+        {
+          "text": "“Yes,” said Tansy.",
+          "mood": "proud",
+          "start_seconds": 12.914,
+          "end_seconds": 14.674
+        },
+        {
+          "text": "Her hello had opened a door, and friendship was waiting on the other side.",
+          "mood": "thoughtful",
+          "start_seconds": 14.874,
+          "end_seconds": 20.874
+        }
+      ]
+    },
+    "2": {
+      "1": [
+        {
+          "text": "Pip spotted a fluffy cloud drifting away from Sunnyvale.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 4.0
+        },
+        {
+          "text": "Below it, the garden drooped.",
+          "mood": "worried",
+          "start_seconds": 4.2,
+          "end_seconds": 7.08
+        },
+        {
+          "text": "“Wait!” he called.",
+          "mood": "urgent",
+          "start_seconds": 7.28,
+          "end_seconds": 8.88
+        },
+        {
+          "text": "The cloud gave a soft rumble, but the wind carried it toward the far hills.",
+          "mood": "worried",
+          "start_seconds": 9.08,
+          "end_seconds": 15.0
+        },
+        {
+          "text": "Pip’s wings fluttered.",
+          "mood": "nervous",
+          "start_seconds": 15.2,
+          "end_seconds": 16.959
+        },
+        {
+          "text": "He had never chased a cloud before.",
+          "mood": "nervous",
+          "start_seconds": 17.159,
+          "end_seconds": 19.879
+        }
+      ],
+      "2": [
+        {
+          "text": "At dragon school, the others made neat loops of flame.",
+          "mood": "wistful",
+          "start_seconds": 0.0,
+          "end_seconds": 4.393
+        },
+        {
+          "text": "Pip breathed in, puffed his cheeks, and blew.",
+          "mood": "determined",
+          "start_seconds": 4.593,
+          "end_seconds": 7.551
+        },
+        {
+          "text": "A warm little mist floated from his nose.",
+          "mood": "surprised",
+          "start_seconds": 7.751,
+          "end_seconds": 10.551
+        },
+        {
+          "text": "“That’s not fire,” he sighed.",
+          "mood": "disappointed",
+          "start_seconds": 10.751,
+          "end_seconds": 13.391
+        },
+        {
+          "text": "Then the mist curled around a thirsty flower.",
+          "mood": "curious",
+          "start_seconds": 13.591,
+          "end_seconds": 16.551
+        },
+        {
+          "text": "Its petals lifted.",
+          "mood": "hopeful",
+          "start_seconds": 16.751,
+          "end_seconds": 18.431
+        }
+      ],
+      "3": [
+        {
+          "text": "A low rumble rolled from the wandering cloud.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 3.196
+        },
+        {
+          "text": "Pip heard no thunder—only a lonely, bubbly grumble.",
+          "mood": "tender",
+          "start_seconds": 3.396,
+          "end_seconds": 7.954
+        },
+        {
+          "text": "“Are you lost?” he asked.",
+          "mood": "curious",
+          "start_seconds": 8.154,
+          "end_seconds": 9.904
+        },
+        {
+          "text": "The cloud drifted over the dry garden, then toward the windy ridge.",
+          "mood": "worried",
+          "start_seconds": 10.104,
+          "end_seconds": 15.224
+        },
+        {
+          "text": "Pip looked at the drooping flowers.",
+          "mood": "worried",
+          "start_seconds": 15.424,
+          "end_seconds": 18.144
+        },
+        {
+          "text": "He knew what he must try.",
+          "mood": "determined",
+          "start_seconds": 18.344,
+          "end_seconds": 19.944
+        }
+      ],
+      "4": [
+        {
+          "text": "Pip climbed the breezy hill.",
+          "mood": "determined",
+          "start_seconds": 0.0,
+          "end_seconds": 2.079
+        },
+        {
+          "text": "Gusts pushed his blue cape over his head, and his wings wobbled like loose leaves.",
+          "mood": "nervous",
+          "start_seconds": 2.279,
+          "end_seconds": 7.791
+        },
+        {
+          "text": "“I’m still going,” he told himself.",
+          "mood": "brave",
+          "start_seconds": 7.991,
+          "end_seconds": 10.464
+        },
+        {
+          "text": "At the top, he saw the cloud bobbing beyond the ridge.",
+          "mood": "hopeful",
+          "start_seconds": 10.664,
+          "end_seconds": 14.5
+        },
+        {
+          "text": "It seemed farther away than before.",
+          "mood": "worried",
+          "start_seconds": 14.7,
+          "end_seconds": 17.174
+        }
+      ],
+      "5": [
+        {
+          "text": "Pip flapped as hard as he could.",
+          "mood": "determined",
+          "start_seconds": 0.0,
+          "end_seconds": 2.078
+        },
+        {
+          "text": "“This way!” he puffed.",
+          "mood": "urgent",
+          "start_seconds": 2.278,
+          "end_seconds": 5.398
+        },
+        {
+          "text": "The wind spun him around, and he landed bottom-first in a haystack.",
+          "mood": "surprised",
+          "start_seconds": 5.598,
+          "end_seconds": 10.395
+        },
+        {
+          "text": "A sneeze of straw flew from his nose.",
+          "mood": "playful",
+          "start_seconds": 10.595,
+          "end_seconds": 13.307
+        },
+        {
+          "text": "Pip giggled, then stood up.",
+          "mood": "joyful",
+          "start_seconds": 13.507,
+          "end_seconds": 15.747
+        },
+        {
+          "text": "The cloud had stopped to listen.",
+          "mood": "hopeful",
+          "start_seconds": 15.947,
+          "end_seconds": 18.18
+        }
+      ],
+      "6": [
+        {
+          "text": "A child in a green raincoat watched from the garden gate.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 3.92
+        },
+        {
+          "text": "“Can the cloud come back?” she asked.",
+          "mood": "worried",
+          "start_seconds": 4.12,
+          "end_seconds": 6.6
+        },
+        {
+          "text": "“The seedlings are thirsty.”",
+          "mood": "tender",
+          "start_seconds": 6.8,
+          "end_seconds": 8.56
+        },
+        {
+          "text": "Pip swallowed.",
+          "mood": "nervous",
+          "start_seconds": 8.76,
+          "end_seconds": 10.12
+        },
+        {
+          "text": "He did not know if he could move a cloud.",
+          "mood": "worried",
+          "start_seconds": 10.32,
+          "end_seconds": 12.88
+        },
+        {
+          "text": "But he could try to help it find the garden.",
+          "mood": "determined",
+          "start_seconds": 13.08,
+          "end_seconds": 15.717
+        }
+      ],
+      "7": [
+        {
+          "text": "Pip closed his eyes and listened.",
+          "mood": "thoughtful",
+          "start_seconds": 0.0,
+          "end_seconds": 2.399
+        },
+        {
+          "text": "The wind whistled over the ridge, then softened near a dip in the hill.",
+          "mood": "curious",
+          "start_seconds": 2.599,
+          "end_seconds": 7.319
+        },
+        {
+          "text": "“This way is sheltered!” he called to the cloud.",
+          "mood": "brave",
+          "start_seconds": 7.519,
+          "end_seconds": 10.799
+        },
+        {
+          "text": "His knees trembled.",
+          "mood": "nervous",
+          "start_seconds": 10.999,
+          "end_seconds": 12.519
+        },
+        {
+          "text": "His voice did too.",
+          "mood": "nervous",
+          "start_seconds": 12.719,
+          "end_seconds": 14.239
+        },
+        {
+          "text": "Still, he kept calling.",
+          "mood": "determined",
+          "start_seconds": 14.439,
+          "end_seconds": 16.519
+        }
+      ],
+      "8": [
+        {
+          "text": "Pip beat his little wings in a steady rhythm.",
+          "mood": "determined",
+          "start_seconds": 0.0,
+          "end_seconds": 3.36
+        },
+        {
+          "text": "Warm mist curled from his nose and showed the cloud the gentle path around the ridge.",
+          "mood": "hopeful",
+          "start_seconds": 3.56,
+          "end_seconds": 9.72
+        },
+        {
+          "text": "The cloud followed, bobbing slowly.",
+          "mood": "relieved",
+          "start_seconds": 9.92,
+          "end_seconds": 12.8
+        },
+        {
+          "text": "Pip flew beside it, tired but smiling.",
+          "mood": "relieved",
+          "start_seconds": 13.0,
+          "end_seconds": 16.28
+        },
+        {
+          "text": "“You’re doing it!” called the child below.",
+          "mood": "joyful",
+          "start_seconds": 16.48,
+          "end_seconds": 19.28
+        }
+      ],
+      "9": [
+        {
+          "text": "The cloud reached the garden and opened into a soft, silver rain.",
+          "mood": "relieved",
+          "start_seconds": 0.0,
+          "end_seconds": 4.48
+        },
+        {
+          "text": "Drops tapped the soil.",
+          "mood": "calm",
+          "start_seconds": 4.68,
+          "end_seconds": 6.6
+        },
+        {
+          "text": "Seedlings stretched, and the flowers lifted their sleepy heads.",
+          "mood": "joyful",
+          "start_seconds": 6.8,
+          "end_seconds": 11.04
+        },
+        {
+          "text": "Pip landed beside the gate, damp from his own mist and grinning from ear to ear.",
+          "mood": "proud",
+          "start_seconds": 11.24,
+          "end_seconds": 16.92
+        }
+      ],
+      "10": [
+        {
+          "text": "A rainbow curved over Sunnyvale.",
+          "mood": "wonder",
+          "start_seconds": 0.0,
+          "end_seconds": 2.479
+        },
+        {
+          "text": "The cloud gave a happy rumble, and Pip’s warm breath made one last tiny puff.",
+          "mood": "joyful",
+          "start_seconds": 2.679,
+          "end_seconds": 8.679
+        },
+        {
+          "text": "It was not flame, but it had helped.",
+          "mood": "proud",
+          "start_seconds": 8.879,
+          "end_seconds": 11.671
+        },
+        {
+          "text": "Pip stood a little taller.",
+          "mood": "proud",
+          "start_seconds": 11.871,
+          "end_seconds": 13.711
+        },
+        {
+          "text": "Bravery, he discovered, could be a shaky wingbeat that keeps going for someone else.",
+          "mood": "thoughtful",
+          "start_seconds": 13.911,
+          "end_seconds": 21.111
+        }
+      ]
+    },
+    "3": {
+      "1": [
+        {
+          "text": "Fern hopped through the wood and noticed that nobody was smiling.",
+          "mood": "worried",
+          "start_seconds": 0.0,
+          "end_seconds": 4.4
+        },
+        {
+          "text": "The squirrels hurried past.",
+          "mood": "worried",
+          "start_seconds": 4.6,
+          "end_seconds": 6.596
+        },
+        {
+          "text": "The robins forgot to sing.",
+          "mood": "wistful",
+          "start_seconds": 6.796,
+          "end_seconds": 8.956
+        },
+        {
+          "text": "Even the old willow seemed to droop.",
+          "mood": "worried",
+          "start_seconds": 9.156,
+          "end_seconds": 11.469
+        },
+        {
+          "text": "“Perhaps everyone needs a little help,” Fern said, and opened her coral satchel.",
+          "mood": "determined",
+          "start_seconds": 11.669,
+          "end_seconds": 17.109
+        }
+      ],
+      "2": [
+        {
+          "text": "A small snail was inching through the drizzle without cover.",
+          "mood": "tender",
+          "start_seconds": 0.0,
+          "end_seconds": 4.312
+        },
+        {
+          "text": "Fern held a broad leaf over them both.",
+          "mood": "tender",
+          "start_seconds": 4.512,
+          "end_seconds": 7.552
+        },
+        {
+          "text": "“You can borrow my umbrella,” she said.",
+          "mood": "reassuring",
+          "start_seconds": 7.752,
+          "end_seconds": 10.232
+        },
+        {
+          "text": "The snail smiled.",
+          "mood": "joyful",
+          "start_seconds": 10.432,
+          "end_seconds": 11.792
+        },
+        {
+          "text": "“Then I’ll share my dry seed with someone hungry.”",
+          "mood": "hopeful",
+          "start_seconds": 11.992,
+          "end_seconds": 15.272
+        },
+        {
+          "text": "Fern’s eyes brightened at the idea.",
+          "mood": "joyful",
+          "start_seconds": 15.472,
+          "end_seconds": 18.272
+        }
+      ],
+      "3": [
+        {
+          "text": "The snail found a bluebird beneath a branch.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 3.353
+        },
+        {
+          "text": "The bird nibbled the seed and sang one clear note.",
+          "mood": "joyful",
+          "start_seconds": 3.553,
+          "end_seconds": 6.986
+        },
+        {
+          "text": "It sounded like a tiny bell.",
+          "mood": "wonder",
+          "start_seconds": 7.186,
+          "end_seconds": 9.182
+        },
+        {
+          "text": "Fern listened, then tucked a few seeds into her pouch.",
+          "mood": "thoughtful",
+          "start_seconds": 9.382,
+          "end_seconds": 14.662
+        },
+        {
+          "text": "The forest still looked gray, but the song felt like sunshine.",
+          "mood": "hopeful",
+          "start_seconds": 14.862,
+          "end_seconds": 19.654
+        }
+      ],
+      "4": [
+        {
+          "text": "At the old stump, Fern found a thirsty hedgehog.",
+          "mood": "tender",
+          "start_seconds": 0.0,
+          "end_seconds": 4.159
+        },
+        {
+          "text": "She set down a cup of cool water and waited while he drank.",
+          "mood": "tender",
+          "start_seconds": 4.359,
+          "end_seconds": 8.679
+        },
+        {
+          "text": "“Thank you,” he sighed.",
+          "mood": "grateful",
+          "start_seconds": 8.879,
+          "end_seconds": 10.559
+        },
+        {
+          "text": "Fern’s seed pouch rustled.",
+          "mood": "curious",
+          "start_seconds": 10.759,
+          "end_seconds": 12.999
+        },
+        {
+          "text": "She wondered if kindness could grow in the ground, just like seeds.",
+          "mood": "wonder",
+          "start_seconds": 13.199,
+          "end_seconds": 17.599
+        }
+      ],
+      "5": [
+        {
+          "text": "A gust swept through the trees.",
+          "mood": "surprised",
+          "start_seconds": 0.0,
+          "end_seconds": 2.238
+        },
+        {
+          "text": "Fern’s pouch popped open, and little seeds skittered across the path.",
+          "mood": "urgent",
+          "start_seconds": 2.438,
+          "end_seconds": 7.238
+        },
+        {
+          "text": "“Oh no!” she cried.",
+          "mood": "worried",
+          "start_seconds": 7.438,
+          "end_seconds": 9.196
+        },
+        {
+          "text": "Seeds rolled beneath leaves, around roots, and into the ferns.",
+          "mood": "worried",
+          "start_seconds": 9.396,
+          "end_seconds": 14.516
+        },
+        {
+          "text": "Fern tried to catch them, but there were too many.",
+          "mood": "frustrated",
+          "start_seconds": 14.716,
+          "end_seconds": 18.556
+        }
+      ],
+      "6": [
+        {
+          "text": "The snail came back with the bluebird.",
+          "mood": "relieved",
+          "start_seconds": 0.0,
+          "end_seconds": 2.393
+        },
+        {
+          "text": "The hedgehog waddled over too.",
+          "mood": "relieved",
+          "start_seconds": 2.593,
+          "end_seconds": 4.753
+        },
+        {
+          "text": "Together, they searched beneath leaves and beside roots.",
+          "mood": "determined",
+          "start_seconds": 4.953,
+          "end_seconds": 8.947
+        },
+        {
+          "text": "“One here!” called the bird.",
+          "mood": "playful",
+          "start_seconds": 9.147,
+          "end_seconds": 11.307
+        },
+        {
+          "text": "“Two there!” said the snail.",
+          "mood": "playful",
+          "start_seconds": 11.507,
+          "end_seconds": 13.507
+        },
+        {
+          "text": "Fern’s worried face softened into a smile.",
+          "mood": "relieved",
+          "start_seconds": 13.707,
+          "end_seconds": 16.987
+        }
+      ],
+      "7": [
+        {
+          "text": "Each neighbor planted one seed in a sunny patch.",
+          "mood": "calm",
+          "start_seconds": 0.0,
+          "end_seconds": 3.517
+        },
+        {
+          "text": "The snail patted the soil.",
+          "mood": "tender",
+          "start_seconds": 3.717,
+          "end_seconds": 5.633
+        },
+        {
+          "text": "The bird dropped a seed by the willow.",
+          "mood": "calm",
+          "start_seconds": 5.833,
+          "end_seconds": 8.549
+        },
+        {
+          "text": "The hedgehog made a neat little hole with one paw.",
+          "mood": "playful",
+          "start_seconds": 8.749,
+          "end_seconds": 12.589
+        },
+        {
+          "text": "Fern planted the last seed beside the path.",
+          "mood": "hopeful",
+          "start_seconds": 12.789,
+          "end_seconds": 16.469
+        }
+      ],
+      "8": [
+        {
+          "text": "By morning, a ring of tiny pink blossoms circled the old willow.",
+          "mood": "wonder",
+          "start_seconds": 0.0,
+          "end_seconds": 4.638
+        },
+        {
+          "text": "Fern stepped through the flowers and found a hidden clearing inside the branches.",
+          "mood": "curious",
+          "start_seconds": 4.838,
+          "end_seconds": 9.878
+        },
+        {
+          "text": "“A meeting place!” she gasped.",
+          "mood": "surprised",
+          "start_seconds": 10.078,
+          "end_seconds": 12.151
+        },
+        {
+          "text": "The neighbors followed, their eyes wide with wonder.",
+          "mood": "wonder",
+          "start_seconds": 12.351,
+          "end_seconds": 16.271
+        }
+      ],
+      "9": [
+        {
+          "text": "The animals brought berry buns, songs, and stories to the clearing.",
+          "mood": "joyful",
+          "start_seconds": 0.0,
+          "end_seconds": 5.44
+        },
+        {
+          "text": "The willow lifted its branches as if joining in.",
+          "mood": "playful",
+          "start_seconds": 5.64,
+          "end_seconds": 8.92
+        },
+        {
+          "text": "The bluebird sang.",
+          "mood": "cozy",
+          "start_seconds": 9.12,
+          "end_seconds": 10.553
+        },
+        {
+          "text": "The snail told a very slow joke, and everyone laughed before it was finished.",
+          "mood": "playful",
+          "start_seconds": 10.753,
+          "end_seconds": 16.352
+        }
+      ],
+      "10": [
+        {
+          "text": "Fern watched the new blossoms nod in the breeze.",
+          "mood": "thoughtful",
+          "start_seconds": 0.0,
+          "end_seconds": 3.76
+        },
+        {
+          "text": "A small kind act had traveled from one neighbor to another, then bloomed into a gathering place.",
+          "mood": "grateful",
+          "start_seconds": 3.96,
+          "end_seconds": 11.16
+        },
+        {
+          "text": "She tucked a seed into her satchel for tomorrow.",
+          "mood": "hopeful",
+          "start_seconds": 11.36,
+          "end_seconds": 14.96
+        },
+        {
+          "text": "There would always be room for kindness to grow.",
+          "mood": "reassuring",
+          "start_seconds": 15.16,
+          "end_seconds": 18.6
+        }
+      ]
+    },
+    "4": {
+      "1": [
+        {
+          "text": "Stella was a little star in a sky full of grand, glittering stars.",
+          "mood": "wistful",
+          "start_seconds": 0.0,
+          "end_seconds": 5.36
+        },
+        {
+          "text": "“Look how brightly they shine,” she sighed.",
+          "mood": "wistful",
+          "start_seconds": 5.56,
+          "end_seconds": 8.36
+        },
+        {
+          "text": "Stella’s own light was small and lavender-soft.",
+          "mood": "shy",
+          "start_seconds": 8.56,
+          "end_seconds": 11.6
+        },
+        {
+          "text": "She tried to copy their sparkle, but her glow only blinked in its own gentle rhythm.",
+          "mood": "disappointed",
+          "start_seconds": 11.8,
+          "end_seconds": 18.2
+        }
+      ],
+      "2": [
+        {
+          "text": "She squeezed her points and shone as hard as she could.",
+          "mood": "determined",
+          "start_seconds": 0.0,
+          "end_seconds": 3.44
+        },
+        {
+          "text": "For one bright moment, she blazed.",
+          "mood": "joyful",
+          "start_seconds": 3.64,
+          "end_seconds": 6.28
+        },
+        {
+          "text": "Then she felt tired and dim.",
+          "mood": "disappointed",
+          "start_seconds": 6.48,
+          "end_seconds": 9.2
+        },
+        {
+          "text": "“Maybe I’m not a very good star,” Stella whispered.",
+          "mood": "wistful",
+          "start_seconds": 9.4,
+          "end_seconds": 13.08
+        },
+        {
+          "text": "The moon tucked a silver cloud beneath her, like a soft pillow.",
+          "mood": "reassuring",
+          "start_seconds": 13.28,
+          "end_seconds": 18.08
+        }
+      ],
+      "3": [
+        {
+          "text": "Below, a tiny moth fluttered over the garden.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 3.679
+        },
+        {
+          "text": "The clouds had covered the moon, and the path home looked the same in every direction.",
+          "mood": "worried",
+          "start_seconds": 3.879,
+          "end_seconds": 9.877
+        },
+        {
+          "text": "“Which way?” the moth wondered.",
+          "mood": "worried",
+          "start_seconds": 10.077,
+          "end_seconds": 12.557
+        },
+        {
+          "text": "Stella noticed the little wings trembling.",
+          "mood": "tender",
+          "start_seconds": 12.757,
+          "end_seconds": 15.637
+        },
+        {
+          "text": "She wished she could help.",
+          "mood": "hopeful",
+          "start_seconds": 15.837,
+          "end_seconds": 17.437
+        }
+      ],
+      "4": [
+        {
+          "text": "Stella watched her own light.",
+          "mood": "thoughtful",
+          "start_seconds": 0.0,
+          "end_seconds": 2.08
+        },
+        {
+          "text": "Blink… glow… blink… glow.",
+          "mood": "playful",
+          "start_seconds": 2.28,
+          "end_seconds": 5.88
+        },
+        {
+          "text": "It was not a flash like the big stars.",
+          "mood": "thoughtful",
+          "start_seconds": 6.08,
+          "end_seconds": 8.876
+        },
+        {
+          "text": "It was a steady, friendly beat.",
+          "mood": "hopeful",
+          "start_seconds": 9.076,
+          "end_seconds": 11.394
+        },
+        {
+          "text": "Her lavender shimmer painted a tiny circle on the cloud beneath her.",
+          "mood": "wonder",
+          "start_seconds": 11.594,
+          "end_seconds": 16.634
+        }
+      ],
+      "5": [
+        {
+          "text": "“What if the moth wants a brighter star?”",
+          "mood": "nervous",
+          "start_seconds": 0.0,
+          "end_seconds": 2.48
+        },
+        {
+          "text": "Stella worried.",
+          "mood": "worried",
+          "start_seconds": 2.76,
+          "end_seconds": 3.88
+        },
+        {
+          "text": "The moth looked up and saw her.",
+          "mood": "surprised",
+          "start_seconds": 4.08,
+          "end_seconds": 6.16
+        },
+        {
+          "text": "“Your light is just the right size,” it called.",
+          "mood": "reassuring",
+          "start_seconds": 6.36,
+          "end_seconds": 9.558
+        },
+        {
+          "text": "Stella’s cheeks warmed.",
+          "mood": "relieved",
+          "start_seconds": 9.758,
+          "end_seconds": 11.918
+        },
+        {
+          "text": "She let her glow pulse gently once more.",
+          "mood": "hopeful",
+          "start_seconds": 12.118,
+          "end_seconds": 15.638
+        }
+      ],
+      "6": [
+        {
+          "text": "The moth followed Stella’s steady rhythm across the sky.",
+          "mood": "calm",
+          "start_seconds": 0.0,
+          "end_seconds": 4.48
+        },
+        {
+          "text": "Each soft blink made the garden path easier to see.",
+          "mood": "hopeful",
+          "start_seconds": 4.68,
+          "end_seconds": 8.195
+        },
+        {
+          "text": "Stella floated slowly, keeping the moth in view.",
+          "mood": "reassuring",
+          "start_seconds": 8.395,
+          "end_seconds": 12.795
+        },
+        {
+          "text": "“I can do this,” she said, and her light grew calm and clear.",
+          "mood": "brave",
+          "start_seconds": 12.995,
+          "end_seconds": 17.715
+        }
+      ],
+      "7": [
+        {
+          "text": "A drifting cloud slid between Stella and the garden.",
+          "mood": "worried",
+          "start_seconds": 0.0,
+          "end_seconds": 3.272
+        },
+        {
+          "text": "For a moment, the path vanished again.",
+          "mood": "worried",
+          "start_seconds": 3.472,
+          "end_seconds": 6.432
+        },
+        {
+          "text": "Stella moved to the cloud’s edge and pulsed her glow.",
+          "mood": "determined",
+          "start_seconds": 6.632,
+          "end_seconds": 10.232
+        },
+        {
+          "text": "The moth turned toward the light.",
+          "mood": "relieved",
+          "start_seconds": 10.432,
+          "end_seconds": 13.152
+        },
+        {
+          "text": "“There you are!” Stella called.",
+          "mood": "joyful",
+          "start_seconds": 13.352,
+          "end_seconds": 15.112
+        }
+      ],
+      "8": [
+        {
+          "text": "One tiny star joined Stella’s rhythm.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 3.197
+        },
+        {
+          "text": "Then another.",
+          "mood": "hopeful",
+          "start_seconds": 3.397,
+          "end_seconds": 4.677
+        },
+        {
+          "text": "Soon, little lights blinked in a gentle line across the clouds.",
+          "mood": "wonder",
+          "start_seconds": 4.877,
+          "end_seconds": 9.837
+        },
+        {
+          "text": "The moth followed the sparkling path, no longer alone beneath the dark blue sky.",
+          "mood": "relieved",
+          "start_seconds": 10.037,
+          "end_seconds": 16.037
+        }
+      ],
+      "9": [
+        {
+          "text": "The moth reached a flower-filled window ledge.",
+          "mood": "relieved",
+          "start_seconds": 0.0,
+          "end_seconds": 2.88
+        },
+        {
+          "text": "It waved both wings toward Stella.",
+          "mood": "joyful",
+          "start_seconds": 3.08,
+          "end_seconds": 5.8
+        },
+        {
+          "text": "“Thank you for showing me the way!”",
+          "mood": "grateful",
+          "start_seconds": 6.0,
+          "end_seconds": 8.32
+        },
+        {
+          "text": "Stella’s glow shimmered lavender and gold.",
+          "mood": "proud",
+          "start_seconds": 8.6,
+          "end_seconds": 11.8
+        },
+        {
+          "text": "The moon peeked out, smiling at the little star.",
+          "mood": "tender",
+          "start_seconds": 12.0,
+          "end_seconds": 15.68
+        }
+      ],
+      "10": [
+        {
+          "text": "Stella looked at the grand stars overhead, then at the small lights beside her.",
+          "mood": "thoughtful",
+          "start_seconds": 0.0,
+          "end_seconds": 5.68
+        },
+        {
+          "text": "She did not need to shine like anyone else.",
+          "mood": "reassuring",
+          "start_seconds": 5.88,
+          "end_seconds": 8.84
+        },
+        {
+          "text": "Her own gentle rhythm had helped a friend find home.",
+          "mood": "proud",
+          "start_seconds": 9.04,
+          "end_seconds": 13.04
+        },
+        {
+          "text": "Stella glowed softly, proud of her very own spark.",
+          "mood": "proud",
+          "start_seconds": 13.24,
+          "end_seconds": 17.32
+        }
+      ]
+    },
+    "5": {
+      "1": [
+        {
+          "text": "Bramble loved the woodland fair: music, bunting, and blueberry buns.",
+          "mood": "joyful",
+          "start_seconds": 0.0,
+          "end_seconds": 5.44
+        },
+        {
+          "text": "He carried a bowl of berries toward the painters making a welcome banner.",
+          "mood": "calm",
+          "start_seconds": 5.64,
+          "end_seconds": 10.76
+        },
+        {
+          "text": "“Careful,” called his friend Wren.",
+          "mood": "worried",
+          "start_seconds": 10.96,
+          "end_seconds": 13.359
+        },
+        {
+          "text": "“I am the carefulest raccoon in the wood!”",
+          "mood": "playful",
+          "start_seconds": 13.559,
+          "end_seconds": 16.839
+        },
+        {
+          "text": "Bramble grinned, and the berries wobbled.",
+          "mood": "playful",
+          "start_seconds": 17.119,
+          "end_seconds": 20.159
+        }
+      ],
+      "2": [
+        {
+          "text": "The painters brushed bright flowers onto the banner.",
+          "mood": "joyful",
+          "start_seconds": 0.0,
+          "end_seconds": 3.516
+        },
+        {
+          "text": "Bramble watched, then began to juggle three berries.",
+          "mood": "playful",
+          "start_seconds": 3.716,
+          "end_seconds": 7.556
+        },
+        {
+          "text": "Up, down, up!",
+          "mood": "playful",
+          "start_seconds": 7.756,
+          "end_seconds": 10.956
+        },
+        {
+          "text": "He bowed to the crowd.",
+          "mood": "proud",
+          "start_seconds": 11.236,
+          "end_seconds": 12.916
+        },
+        {
+          "text": "One berry bounced off his nose.",
+          "mood": "surprised",
+          "start_seconds": 13.116,
+          "end_seconds": 15.436
+        },
+        {
+          "text": "The bowl tipped, and the berries rolled toward the wet paint.",
+          "mood": "worried",
+          "start_seconds": 15.636,
+          "end_seconds": 19.715
+        }
+      ],
+      "3": [
+        {
+          "text": "Plop!",
+          "mood": "surprised",
+          "start_seconds": 0.0,
+          "end_seconds": 0.56
+        },
+        {
+          "text": "Splash!",
+          "mood": "surprised",
+          "start_seconds": 0.84,
+          "end_seconds": 1.88
+        },
+        {
+          "text": "Blueberry juice spotted the banner in big purple splashes.",
+          "mood": "worried",
+          "start_seconds": 2.16,
+          "end_seconds": 6.627
+        },
+        {
+          "text": "Bramble froze.",
+          "mood": "nervous",
+          "start_seconds": 6.827,
+          "end_seconds": 8.107
+        },
+        {
+          "text": "The painters stared at the cloth.",
+          "mood": "disappointed",
+          "start_seconds": 8.307,
+          "end_seconds": 10.547
+        },
+        {
+          "text": "“Oh,” he whispered.",
+          "mood": "nervous",
+          "start_seconds": 10.747,
+          "end_seconds": 13.147
+        },
+        {
+          "text": "The wind fluttered the banner, but Bramble knew the berries had tipped because he was showing off.",
+          "mood": "thoughtful",
+          "start_seconds": 13.347,
+          "end_seconds": 20.307
+        }
+      ],
+      "4": [
+        {
+          "text": "Bramble thought about saying, “The wind did it.”",
+          "mood": "nervous",
+          "start_seconds": 0.0,
+          "end_seconds": 3.28
+        },
+        {
+          "text": "His red neckerchief felt too tight.",
+          "mood": "worried",
+          "start_seconds": 3.48,
+          "end_seconds": 6.04
+        },
+        {
+          "text": "He looked at the paintbrushes, then at the berry bowl.",
+          "mood": "thoughtful",
+          "start_seconds": 6.24,
+          "end_seconds": 10.4
+        },
+        {
+          "text": "His friends were not angry.",
+          "mood": "relieved",
+          "start_seconds": 10.6,
+          "end_seconds": 12.52
+        },
+        {
+          "text": "They were waiting to understand what had happened.",
+          "mood": "thoughtful",
+          "start_seconds": 12.72,
+          "end_seconds": 15.84
+        }
+      ],
+      "5": [
+        {
+          "text": "“Where did all the berries go?” asked Wren.",
+          "mood": "worried",
+          "start_seconds": 0.0,
+          "end_seconds": 3.36
+        },
+        {
+          "text": "A little mouse searched beneath the table.",
+          "mood": "curious",
+          "start_seconds": 3.56,
+          "end_seconds": 6.12
+        },
+        {
+          "text": "Bramble’s tummy squeezed into a knot.",
+          "mood": "nervous",
+          "start_seconds": 6.32,
+          "end_seconds": 9.035
+        },
+        {
+          "text": "He could hide behind the bunting.",
+          "mood": "worried",
+          "start_seconds": 9.235,
+          "end_seconds": 11.235
+        },
+        {
+          "text": "Or he could tell the truth and help.",
+          "mood": "brave",
+          "start_seconds": 11.435,
+          "end_seconds": 13.592
+        }
+      ],
+      "6": [
+        {
+          "text": "“I spilled them,” Bramble said.",
+          "mood": "nervous",
+          "start_seconds": 0.0,
+          "end_seconds": 2.074
+        },
+        {
+          "text": "“I was juggling, and I’m sorry.”",
+          "mood": "tender",
+          "start_seconds": 2.274,
+          "end_seconds": 4.907
+        },
+        {
+          "text": "Wren nodded.",
+          "mood": "reassuring",
+          "start_seconds": 5.107,
+          "end_seconds": 5.987
+        },
+        {
+          "text": "“Thank you for telling us.",
+          "mood": "grateful",
+          "start_seconds": 6.187,
+          "end_seconds": 7.947
+        },
+        {
+          "text": "Let’s see what we can make.”",
+          "mood": "hopeful",
+          "start_seconds": 8.147,
+          "end_seconds": 9.667
+        },
+        {
+          "text": "Bramble’s shoulders relaxed.",
+          "mood": "relieved",
+          "start_seconds": 9.867,
+          "end_seconds": 11.947
+        },
+        {
+          "text": "Together, they picked up the berries and looked at the purple-spotted banner.",
+          "mood": "hopeful",
+          "start_seconds": 12.147,
+          "end_seconds": 16.707
+        }
+      ],
+      "7": [
+        {
+          "text": "“Those splashes look like a night sky,” said the mouse.",
+          "mood": "surprised",
+          "start_seconds": 0.0,
+          "end_seconds": 4.08
+        },
+        {
+          "text": "“And these could be flowers,” added Wren.",
+          "mood": "curious",
+          "start_seconds": 4.28,
+          "end_seconds": 6.92
+        },
+        {
+          "text": "The painters dipped their brushes into gold and green.",
+          "mood": "determined",
+          "start_seconds": 7.12,
+          "end_seconds": 10.8
+        },
+        {
+          "text": "Bramble watched the oops become a picture.",
+          "mood": "wonder",
+          "start_seconds": 11.0,
+          "end_seconds": 14.196
+        },
+        {
+          "text": "A grin returned to his face.",
+          "mood": "joyful",
+          "start_seconds": 14.396,
+          "end_seconds": 16.633
+        }
+      ],
+      "8": [
+        {
+          "text": "Bramble carefully stamped little blueberry circles around the purple splashes.",
+          "mood": "determined",
+          "start_seconds": 0.0,
+          "end_seconds": 5.44
+        },
+        {
+          "text": "The mouse painted tiny stars between them.",
+          "mood": "playful",
+          "start_seconds": 5.64,
+          "end_seconds": 8.6
+        },
+        {
+          "text": "Wren added leaves and curling vines.",
+          "mood": "calm",
+          "start_seconds": 8.8,
+          "end_seconds": 11.6
+        },
+        {
+          "text": "The banner became a bright garden beneath a midnight sky, with berries in every corner.",
+          "mood": "proud",
+          "start_seconds": 11.8,
+          "end_seconds": 18.12
+        }
+      ],
+      "9": [
+        {
+          "text": "At sunset, the fair opened beneath the new banner.",
+          "mood": "joyful",
+          "start_seconds": 0.0,
+          "end_seconds": 3.516
+        },
+        {
+          "text": "Children pointed at the blueberry stars.",
+          "mood": "wonder",
+          "start_seconds": 3.716,
+          "end_seconds": 6.756
+        },
+        {
+          "text": "Bramble carried a fresh bowl with both paws.",
+          "mood": "proud",
+          "start_seconds": 6.956,
+          "end_seconds": 10.636
+        },
+        {
+          "text": "“No juggling today,” he laughed.",
+          "mood": "playful",
+          "start_seconds": 10.836,
+          "end_seconds": 13.156
+        },
+        {
+          "text": "His friends saved him a blueberry bun.",
+          "mood": "tender",
+          "start_seconds": 13.356,
+          "end_seconds": 16.316
+        }
+      ],
+      "10": [
+        {
+          "text": "Bramble admired the banner, then thanked his friends for helping.",
+          "mood": "grateful",
+          "start_seconds": 0.0,
+          "end_seconds": 4.32
+        },
+        {
+          "text": "Telling the truth had let everyone fix the mess together.",
+          "mood": "thoughtful",
+          "start_seconds": 4.52,
+          "end_seconds": 8.68
+        },
+        {
+          "text": "He tied his red neckerchief loosely and took one careful bite of his bun.",
+          "mood": "calm",
+          "start_seconds": 8.88,
+          "end_seconds": 14.48
+        },
+        {
+          "text": "It was delicious—and stayed on the plate.",
+          "mood": "playful",
+          "start_seconds": 14.68,
+          "end_seconds": 17.316
+        }
+      ]
+    },
+    "6": {
+      "1": [
+        {
+          "text": "Bluebell Pond was quiet.",
+          "mood": "calm",
+          "start_seconds": 0.0,
+          "end_seconds": 1.998
+        },
+        {
+          "text": "The old festival bell had not rung all morning.",
+          "mood": "worried",
+          "start_seconds": 2.198,
+          "end_seconds": 5.878
+        },
+        {
+          "text": "“Without its song, how will everyone know the water-lily party is ready?” asked Juniper.",
+          "mood": "worried",
+          "start_seconds": 6.078,
+          "end_seconds": 12.878
+        },
+        {
+          "text": "She peered beneath the lily pads.",
+          "mood": "curious",
+          "start_seconds": 13.078,
+          "end_seconds": 15.638
+        },
+        {
+          "text": "A tiny silver glimmer winked from the deep water.",
+          "mood": "wonder",
+          "start_seconds": 15.838,
+          "end_seconds": 20.071
+        }
+      ],
+      "2": [
+        {
+          "text": "Juniper leaned close and listened.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 2.479
+        },
+        {
+          "text": "Ting… ting… came a faint sound from below.",
+          "mood": "wonder",
+          "start_seconds": 2.679,
+          "end_seconds": 6.199
+        },
+        {
+          "text": "“The bell is down there!” she said.",
+          "mood": "surprised",
+          "start_seconds": 6.399,
+          "end_seconds": 8.639
+        },
+        {
+          "text": "Her yellow rain hat slipped over one eye.",
+          "mood": "playful",
+          "start_seconds": 8.839,
+          "end_seconds": 12.199
+        },
+        {
+          "text": "Bix the beaver hurried over with his tool belt.",
+          "mood": "determined",
+          "start_seconds": 12.399,
+          "end_seconds": 15.436
+        },
+        {
+          "text": "“I can build a raft!”",
+          "mood": "joyful",
+          "start_seconds": 15.636,
+          "end_seconds": 16.91
+        }
+      ],
+      "3": [
+        {
+          "text": "Bix made a sturdy floating platform from smooth planks.",
+          "mood": "determined",
+          "start_seconds": 0.0,
+          "end_seconds": 3.834
+        },
+        {
+          "text": "Juniper hopped aboard, but the platform stopped far from the glimmer.",
+          "mood": "disappointed",
+          "start_seconds": 4.034,
+          "end_seconds": 8.514
+        },
+        {
+          "text": "“We need a longer way,” Bix said.",
+          "mood": "thoughtful",
+          "start_seconds": 8.714,
+          "end_seconds": 11.114
+        },
+        {
+          "text": "Sol the heron rose into the air and circled the pond, searching from above.",
+          "mood": "determined",
+          "start_seconds": 11.314,
+          "end_seconds": 16.674
+        }
+      ],
+      "4": [
+        {
+          "text": "From high over the water, Sol spotted a narrow path between the reeds.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 5.76
+        },
+        {
+          "text": "“There’s a shallow channel on the far side!” she called.",
+          "mood": "hopeful",
+          "start_seconds": 5.96,
+          "end_seconds": 9.24
+        },
+        {
+          "text": "But the reeds were thick, and the path twisted out of sight.",
+          "mood": "worried",
+          "start_seconds": 9.44,
+          "end_seconds": 13.196
+        },
+        {
+          "text": "Bix frowned at his map.",
+          "mood": "thoughtful",
+          "start_seconds": 13.396,
+          "end_seconds": 15.156
+        },
+        {
+          "text": "“Which way should we go?”",
+          "mood": "worried",
+          "start_seconds": 15.356,
+          "end_seconds": 17.036
+        }
+      ],
+      "5": [
+        {
+          "text": "Midge the little field mouse squeezed beneath a root.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 3.76
+        },
+        {
+          "text": "“I found a tunnel!” she squeaked.",
+          "mood": "joyful",
+          "start_seconds": 3.96,
+          "end_seconds": 6.193
+        },
+        {
+          "text": "It led to a small dry nook beside the bell rope.",
+          "mood": "hopeful",
+          "start_seconds": 6.393,
+          "end_seconds": 9.99
+        },
+        {
+          "text": "Midge could reach the rope, but it was tangled around a root.",
+          "mood": "worried",
+          "start_seconds": 10.19,
+          "end_seconds": 14.51
+        },
+        {
+          "text": "She needed help pulling it free.",
+          "mood": "determined",
+          "start_seconds": 14.71,
+          "end_seconds": 16.938
+        }
+      ],
+      "6": [
+        {
+          "text": "Everyone had a different idea.",
+          "mood": "thoughtful",
+          "start_seconds": 0.0,
+          "end_seconds": 2.233
+        },
+        {
+          "text": "Bix wanted to push the raft.",
+          "mood": "determined",
+          "start_seconds": 2.433,
+          "end_seconds": 4.428
+        },
+        {
+          "text": "Sol wanted to follow the reed channel.",
+          "mood": "determined",
+          "start_seconds": 4.628,
+          "end_seconds": 7.188
+        },
+        {
+          "text": "Midge pointed toward the tunnel.",
+          "mood": "determined",
+          "start_seconds": 7.388,
+          "end_seconds": 9.388
+        },
+        {
+          "text": "They began talking all at once.",
+          "mood": "frustrated",
+          "start_seconds": 9.588,
+          "end_seconds": 11.988
+        },
+        {
+          "text": "Juniper raised one green hand.",
+          "mood": "reassuring",
+          "start_seconds": 12.188,
+          "end_seconds": 14.426
+        },
+        {
+          "text": "“Let’s listen to every clue first.”",
+          "mood": "calm",
+          "start_seconds": 14.626,
+          "end_seconds": 17.106
+        }
+      ],
+      "7": [
+        {
+          "text": "Midge explained where the rope was stuck.",
+          "mood": "thoughtful",
+          "start_seconds": 0.0,
+          "end_seconds": 2.8
+        },
+        {
+          "text": "Sol traced the shallow channel with one long wing.",
+          "mood": "thoughtful",
+          "start_seconds": 3.0,
+          "end_seconds": 6.68
+        },
+        {
+          "text": "Bix showed how the raft could carry them over the deepest water.",
+          "mood": "determined",
+          "start_seconds": 6.88,
+          "end_seconds": 10.716
+        },
+        {
+          "text": "Juniper repeated each idea.",
+          "mood": "calm",
+          "start_seconds": 10.916,
+          "end_seconds": 13.156
+        },
+        {
+          "text": "The friends began to see how the pieces might fit.",
+          "mood": "hopeful",
+          "start_seconds": 13.356,
+          "end_seconds": 16.626
+        }
+      ],
+      "8": [
+        {
+          "text": "Bix guided the raft to the reed channel.",
+          "mood": "determined",
+          "start_seconds": 0.0,
+          "end_seconds": 2.639
+        },
+        {
+          "text": "Sol flew ahead to show the safest turns.",
+          "mood": "reassuring",
+          "start_seconds": 2.839,
+          "end_seconds": 6.359
+        },
+        {
+          "text": "Juniper paddled beside the platform, and Midge crawled through the dry tunnel to the rope.",
+          "mood": "determined",
+          "start_seconds": 6.559,
+          "end_seconds": 12.079
+        },
+        {
+          "text": "Together, they tugged.",
+          "mood": "brave",
+          "start_seconds": 12.279,
+          "end_seconds": 14.279
+        },
+        {
+          "text": "The bell lifted with a silvery wobble.",
+          "mood": "surprised",
+          "start_seconds": 14.479,
+          "end_seconds": 17.198
+        }
+      ],
+      "9": [
+        {
+          "text": "Ting-a-ling!",
+          "mood": "joyful",
+          "start_seconds": 0.0,
+          "end_seconds": 1.2
+        },
+        {
+          "text": "The bell rang across Bluebell Pond.",
+          "mood": "joyful",
+          "start_seconds": 1.48,
+          "end_seconds": 5.96
+        },
+        {
+          "text": "Water lilies bobbed, frogs cheered, and ducks paddled in a happy circle.",
+          "mood": "joyful",
+          "start_seconds": 6.16,
+          "end_seconds": 12.16
+        },
+        {
+          "text": "The friends tied the bell safely above the dock.",
+          "mood": "calm",
+          "start_seconds": 12.36,
+          "end_seconds": 15.543
+        },
+        {
+          "text": "Sunlight danced on the water like tiny bells.",
+          "mood": "wonder",
+          "start_seconds": 15.743,
+          "end_seconds": 19.103
+        }
+      ],
+      "10": [
+        {
+          "text": "At the festival, Juniper, Bix, Sol, and Midge shared how they found the bell.",
+          "mood": "grateful",
+          "start_seconds": 0.0,
+          "end_seconds": 6.794
+        },
+        {
+          "text": "“Each of us noticed something different,” said Juniper.",
+          "mood": "thoughtful",
+          "start_seconds": 6.994,
+          "end_seconds": 10.75
+        },
+        {
+          "text": "Their teamwork had made a path no one could see alone.",
+          "mood": "proud",
+          "start_seconds": 10.95,
+          "end_seconds": 14.47
+        },
+        {
+          "text": "The pond rang with music all afternoon.",
+          "mood": "joyful",
+          "start_seconds": 14.67,
+          "end_seconds": 17.47
+        }
+      ]
+    },
+    "7": {
+      "1": [
+        {
+          "text": "On festival morning, Niko the young fox found every village flag hanging limp.",
+          "mood": "disappointed",
+          "start_seconds": 0.0,
+          "end_seconds": 6.793
+        },
+        {
+          "text": "The air was still as a sleepy pond.",
+          "mood": "calm",
+          "start_seconds": 6.993,
+          "end_seconds": 9.709
+        },
+        {
+          "text": "“A festival needs a little music,” he said.",
+          "mood": "hopeful",
+          "start_seconds": 9.909,
+          "end_seconds": 12.778
+        },
+        {
+          "text": "He looked at the quiet ribbons and wondered whether a clever machine could invite the breeze to play.",
+          "mood": "curious",
+          "start_seconds": 12.978,
+          "end_seconds": 19.618
+        }
+      ],
+      "2": [
+        {
+          "text": "Niko sketched a whirly-wonder: bright sails, tiny bells, and a turning wheel.",
+          "mood": "wonder",
+          "start_seconds": 0.0,
+          "end_seconds": 6.0
+        },
+        {
+          "text": "“When the wind arrives, it will make a song!” he imagined.",
+          "mood": "joyful",
+          "start_seconds": 6.2,
+          "end_seconds": 9.955
+        },
+        {
+          "text": "His ears perked beneath his round goggles.",
+          "mood": "joyful",
+          "start_seconds": 10.155,
+          "end_seconds": 13.195
+        },
+        {
+          "text": "He gathered sticks, string, and shiny scraps, eager to begin.",
+          "mood": "determined",
+          "start_seconds": 13.395,
+          "end_seconds": 18.435
+        }
+      ],
+      "3": [
+        {
+          "text": "His first machine grew taller than the garden gate.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 3.28
+        },
+        {
+          "text": "Niko pushed it outside.",
+          "mood": "determined",
+          "start_seconds": 3.48,
+          "end_seconds": 5.4
+        },
+        {
+          "text": "The frame wobbled, leaned, and sank into the soft grass with a gentle plop.",
+          "mood": "playful",
+          "start_seconds": 5.6,
+          "end_seconds": 10.953
+        },
+        {
+          "text": "Niko sighed.",
+          "mood": "disappointed",
+          "start_seconds": 11.153,
+          "end_seconds": 12.193
+        },
+        {
+          "text": "“That was too heavy.”",
+          "mood": "disappointed",
+          "start_seconds": 12.393,
+          "end_seconds": 13.993
+        },
+        {
+          "text": "He picked up his sketch and searched for a lighter idea.",
+          "mood": "determined",
+          "start_seconds": 14.193,
+          "end_seconds": 17.633
+        }
+      ],
+      "4": [
+        {
+          "text": "A curious bluebird named Tilly fluttered down with one soft feather.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 5.52
+        },
+        {
+          "text": "The baker brought an empty paper tube.",
+          "mood": "tender",
+          "start_seconds": 5.72,
+          "end_seconds": 8.68
+        },
+        {
+          "text": "“These are light,” they said.",
+          "mood": "hopeful",
+          "start_seconds": 8.88,
+          "end_seconds": 10.48
+        },
+        {
+          "text": "Niko smiled.",
+          "mood": "joyful",
+          "start_seconds": 10.68,
+          "end_seconds": 11.8
+        },
+        {
+          "text": "He thanked them and studied the feather.",
+          "mood": "thoughtful",
+          "start_seconds": 12.0,
+          "end_seconds": 14.32
+        },
+        {
+          "text": "Perhaps his machine did not need to be big to make something wonderful.",
+          "mood": "hopeful",
+          "start_seconds": 14.52,
+          "end_seconds": 19.0
+        }
+      ],
+      "5": [
+        {
+          "text": "Niko made a small pinwheel from the paper tube and feather.",
+          "mood": "determined",
+          "start_seconds": 0.0,
+          "end_seconds": 4.4
+        },
+        {
+          "text": "A shy puff of air turned its petals.",
+          "mood": "curious",
+          "start_seconds": 4.6,
+          "end_seconds": 7.638
+        },
+        {
+          "text": "Ting!",
+          "mood": "surprised",
+          "start_seconds": 7.838,
+          "end_seconds": 8.476
+        },
+        {
+          "text": "A tiny bell chimed once.",
+          "mood": "wonder",
+          "start_seconds": 8.756,
+          "end_seconds": 10.586
+        },
+        {
+          "text": "Niko’s eyes grew round.",
+          "mood": "surprised",
+          "start_seconds": 10.786,
+          "end_seconds": 12.466
+        },
+        {
+          "text": "“It works!”",
+          "mood": "joyful",
+          "start_seconds": 12.666,
+          "end_seconds": 13.626
+        },
+        {
+          "text": "The little sound was not loud, but it made the whole workshop feel brighter.",
+          "mood": "wonder",
+          "start_seconds": 13.906,
+          "end_seconds": 19.026
+        }
+      ],
+      "6": [
+        {
+          "text": "Just as Niko carried the pinwheel toward the festival, one paper petal slipped loose.",
+          "mood": "worried",
+          "start_seconds": 0.0,
+          "end_seconds": 6.16
+        },
+        {
+          "text": "A breeze caught it and twirled it over the garden fence.",
+          "mood": "surprised",
+          "start_seconds": 6.36,
+          "end_seconds": 10.354
+        },
+        {
+          "text": "Niko watched it disappear.",
+          "mood": "disappointed",
+          "start_seconds": 10.554,
+          "end_seconds": 12.392
+        },
+        {
+          "text": "The festival would begin soon, and the whirly-wonder still needed its missing piece.",
+          "mood": "urgent",
+          "start_seconds": 12.592,
+          "end_seconds": 17.867
+        }
+      ],
+      "7": [
+        {
+          "text": "Niko hurried to the village square.",
+          "mood": "urgent",
+          "start_seconds": 0.0,
+          "end_seconds": 2.16
+        },
+        {
+          "text": "“Will you help me look?” he asked.",
+          "mood": "hopeful",
+          "start_seconds": 2.36,
+          "end_seconds": 4.276
+        },
+        {
+          "text": "He showed everyone his sketch and explained how the feather and tube made the wheel turn.",
+          "mood": "determined",
+          "start_seconds": 4.476,
+          "end_seconds": 10.716
+        },
+        {
+          "text": "Neighbors stopped decorating and joined the search, checking paths, flower beds, and fence corners.",
+          "mood": "hopeful",
+          "start_seconds": 10.916,
+          "end_seconds": 18.196
+        }
+      ],
+      "8": [
+        {
+          "text": "Tilly spotted the petal beside a marigold.",
+          "mood": "hopeful",
+          "start_seconds": 0.0,
+          "end_seconds": 3.515
+        },
+        {
+          "text": "The baker brought more paper tubes, and neighbors tied them with soft string.",
+          "mood": "grateful",
+          "start_seconds": 3.715,
+          "end_seconds": 9.155
+        },
+        {
+          "text": "Niko rebuilt the wheel with smaller, lighter pieces.",
+          "mood": "determined",
+          "start_seconds": 9.355,
+          "end_seconds": 13.195
+        },
+        {
+          "text": "Everyone tested one part at a time, listening for a clear, happy chime.",
+          "mood": "joyful",
+          "start_seconds": 13.395,
+          "end_seconds": 18.826
+        }
+      ],
+      "9": [
+        {
+          "text": "A gentle breeze slipped through the square.",
+          "mood": "wonder",
+          "start_seconds": 0.0,
+          "end_seconds": 2.716
+        },
+        {
+          "text": "The whirly-wonder spun, and its little bells made a tinkly tune.",
+          "mood": "joyful",
+          "start_seconds": 2.916,
+          "end_seconds": 8.676
+        },
+        {
+          "text": "Flags lifted and fluttered overhead.",
+          "mood": "joyful",
+          "start_seconds": 8.876,
+          "end_seconds": 11.356
+        },
+        {
+          "text": "Children clapped softly so they could hear every note.",
+          "mood": "tender",
+          "start_seconds": 11.556,
+          "end_seconds": 16.036
+        },
+        {
+          "text": "Niko grinned as the whole festival seemed to dance.",
+          "mood": "joyful",
+          "start_seconds": 16.236,
+          "end_seconds": 20.316
+        }
+      ],
+      "10": [
+        {
+          "text": "“Your idea began the song,” said Tilly.",
+          "mood": "grateful",
+          "start_seconds": 0.0,
+          "end_seconds": 3.44
+        },
+        {
+          "text": "“And everyone helped it grow,” Niko replied.",
+          "mood": "grateful",
+          "start_seconds": 3.64,
+          "end_seconds": 6.918
+        },
+        {
+          "text": "He had learned that a first try could be a beginning, not the end.",
+          "mood": "thoughtful",
+          "start_seconds": 7.118,
+          "end_seconds": 12.318
+        },
+        {
+          "text": "As the flags waved, neighbors shared music made from one small idea and many kind hands.",
+          "mood": "joyful",
+          "start_seconds": 12.518,
+          "end_seconds": 19.308
+        }
+      ]
+    },
+    "8": {
+      "1": [
+        {
+          "text": "Rain tapped Lina’s window all afternoon.",
+          "mood": "calm",
+          "start_seconds": 0.0,
+          "end_seconds": 2.88
+        },
+        {
+          "text": "She pressed her nose to the glass.",
+          "mood": "wistful",
+          "start_seconds": 3.08,
+          "end_seconds": 5.32
+        },
+        {
+          "text": "“I wanted a grand adventure,” she sighed.",
+          "mood": "disappointed",
+          "start_seconds": 5.52,
+          "end_seconds": 8.8
+        },
+        {
+          "text": "Grandma sat beside her with a warm blanket.",
+          "mood": "reassuring",
+          "start_seconds": 9.0,
+          "end_seconds": 12.117
+        },
+        {
+          "text": "“Maybe an adventure is already here,” she said.",
+          "mood": "hopeful",
+          "start_seconds": 12.317,
+          "end_seconds": 15.757
+        },
+        {
+          "text": "Lina peered outside, but the gray street looked ordinary.",
+          "mood": "disappointed",
+          "start_seconds": 15.957,
+          "end_seconds": 20.197
+        }
+      ],
+      "2": [
+        {
+          "text": "Grandma brought a small blue notebook and a pencil.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 3.195
+        },
+        {
+          "text": "“Let’s collect tiny treasures,” she suggested.",
+          "mood": "playful",
+          "start_seconds": 3.395,
+          "end_seconds": 6.995
+        },
+        {
+          "text": "“A smell, a sound, a kind thing, anything that makes you smile.”",
+          "mood": "reassuring",
+          "start_seconds": 7.195,
+          "end_seconds": 13.189
+        },
+        {
+          "text": "Lina opened to a clean page.",
+          "mood": "curious",
+          "start_seconds": 13.389,
+          "end_seconds": 16.909
+        },
+        {
+          "text": "“Do treasures have to be shiny?” she asked.",
+          "mood": "curious",
+          "start_seconds": 17.109,
+          "end_seconds": 20.069
+        },
+        {
+          "text": "“Not at all,” Grandma replied.",
+          "mood": "reassuring",
+          "start_seconds": 20.269,
+          "end_seconds": 22.588
+        }
+      ],
+      "3": [
+        {
+          "text": "In the kitchen, warm bread made the room smell cozy.",
+          "mood": "cozy",
+          "start_seconds": 0.0,
+          "end_seconds": 3.6
+        },
+        {
+          "text": "Lina drew a little loaf in her notebook.",
+          "mood": "calm",
+          "start_seconds": 3.8,
+          "end_seconds": 6.44
+        },
+        {
+          "text": "Then she watched a raindrop race another down the window.",
+          "mood": "playful",
+          "start_seconds": 6.64,
+          "end_seconds": 10.88
+        },
+        {
+          "text": "“That one won!” she cheered.",
+          "mood": "joyful",
+          "start_seconds": 11.08,
+          "end_seconds": 13.48
+        },
+        {
+          "text": "Grandma laughed, and Lina added two wiggly drops beside her bread.",
+          "mood": "joyful",
+          "start_seconds": 13.68,
+          "end_seconds": 18.4
+        }
+      ],
+      "4": [
+        {
+          "text": "On the porch, a puddle reflected Lina’s upside-down face.",
+          "mood": "surprised",
+          "start_seconds": 0.0,
+          "end_seconds": 4.08
+        },
+        {
+          "text": "Her curls pointed toward the clouds, and her smile looked like a crescent moon.",
+          "mood": "playful",
+          "start_seconds": 4.28,
+          "end_seconds": 11.32
+        },
+        {
+          "text": "Grandma leaned over too.",
+          "mood": "curious",
+          "start_seconds": 11.52,
+          "end_seconds": 13.598
+        },
+        {
+          "text": "Their silly reflections made them giggle until the rain seemed to sing along.",
+          "mood": "joyful",
+          "start_seconds": 13.798,
+          "end_seconds": 19.238
+        }
+      ],
+      "5": [
+        {
+          "text": "The bus was late, and Lina’s boots began to feel heavy.",
+          "mood": "disappointed",
+          "start_seconds": 0.0,
+          "end_seconds": 4.156
+        },
+        {
+          "text": "“This waiting is taking forever,” she grumbled.",
+          "mood": "frustrated",
+          "start_seconds": 4.356,
+          "end_seconds": 7.716
+        },
+        {
+          "text": "Grandma checked the quiet street.",
+          "mood": "calm",
+          "start_seconds": 7.916,
+          "end_seconds": 10.396
+        },
+        {
+          "text": "Lina tapped her pencil against the notebook, but she could not think of any treasure in standing still.",
+          "mood": "frustrated",
+          "start_seconds": 10.596,
+          "end_seconds": 17.316
+        }
+      ],
+      "6": [
+        {
+          "text": "Then Lina noticed a neighbor hurrying toward the bus stop without an umbrella.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 6.16
+        },
+        {
+          "text": "Another neighbor scooted over and shared a wide, colorful one.",
+          "mood": "tender",
+          "start_seconds": 6.36,
+          "end_seconds": 10.837
+        },
+        {
+          "text": "They walked together beneath it, laughing as they dodged the puddles.",
+          "mood": "joyful",
+          "start_seconds": 11.037,
+          "end_seconds": 15.677
+        },
+        {
+          "text": "Grandma gave Lina a gentle nudge toward her notebook.",
+          "mood": "tender",
+          "start_seconds": 15.877,
+          "end_seconds": 19.551
+        }
+      ],
+      "7": [
+        {
+          "text": "Lina drew the two neighbors under their bright umbrella.",
+          "mood": "determined",
+          "start_seconds": 0.0,
+          "end_seconds": 3.68
+        },
+        {
+          "text": "Just then, one waved to her from the sidewalk.",
+          "mood": "surprised",
+          "start_seconds": 3.88,
+          "end_seconds": 6.68
+        },
+        {
+          "text": "Lina waved back.",
+          "mood": "tender",
+          "start_seconds": 6.88,
+          "end_seconds": 8.16
+        },
+        {
+          "text": "“A kind thing and a kind wave!” she said.",
+          "mood": "joyful",
+          "start_seconds": 8.36,
+          "end_seconds": 11.314
+        },
+        {
+          "text": "The page was no longer empty.",
+          "mood": "relieved",
+          "start_seconds": 11.514,
+          "end_seconds": 13.834
+        },
+        {
+          "text": "Her waiting felt a little lighter.",
+          "mood": "hopeful",
+          "start_seconds": 14.034,
+          "end_seconds": 16.274
+        }
+      ],
+      "8": [
+        {
+          "text": "Grandma folded a paper boat from a grocery list’s blank side.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 4.08
+        },
+        {
+          "text": "Lina added a tiny blue flag.",
+          "mood": "playful",
+          "start_seconds": 4.28,
+          "end_seconds": 6.52
+        },
+        {
+          "text": "They set it in a gentle stream beside the curb and watched it sail safely along the shallow gutter.",
+          "mood": "calm",
+          "start_seconds": 6.72,
+          "end_seconds": 14.716
+        },
+        {
+          "text": "It bobbed past leaves like a brave little captain.",
+          "mood": "playful",
+          "start_seconds": 14.916,
+          "end_seconds": 18.276
+        }
+      ],
+      "9": [
+        {
+          "text": "At home, Lina read her notebook aloud: warm bread, racing raindrops, funny faces, a shared umbrella, and a tiny boat.",
+          "mood": "proud",
+          "start_seconds": 0.0,
+          "end_seconds": 10.56
+        },
+        {
+          "text": "Grandma listened, smiling.",
+          "mood": "tender",
+          "start_seconds": 10.76,
+          "end_seconds": 13.155
+        },
+        {
+          "text": "“That is quite a collection,” she said.",
+          "mood": "grateful",
+          "start_seconds": 13.355,
+          "end_seconds": 16.235
+        },
+        {
+          "text": "Lina turned each page carefully, surprised by how much the day had held.",
+          "mood": "surprised",
+          "start_seconds": 16.435,
+          "end_seconds": 22.035
+        }
+      ],
+      "10": [
+        {
+          "text": "The rain softened to a whisper.",
+          "mood": "calm",
+          "start_seconds": 0.0,
+          "end_seconds": 2.16
+        },
+        {
+          "text": "Lina looked out at the ordinary street again.",
+          "mood": "thoughtful",
+          "start_seconds": 2.36,
+          "end_seconds": 5.4
+        },
+        {
+          "text": "Now it seemed full of small wonders waiting to be noticed.",
+          "mood": "wonder",
+          "start_seconds": 5.6,
+          "end_seconds": 9.52
+        },
+        {
+          "text": "She tucked the notebook beside her bed.",
+          "mood": "cozy",
+          "start_seconds": 9.72,
+          "end_seconds": 12.36
+        },
+        {
+          "text": "“Tomorrow, I’ll look for more,” she said, already dreaming of little treasures.",
+          "mood": "hopeful",
+          "start_seconds": 12.56,
+          "end_seconds": 18.72
+        }
+      ]
+    },
+    "9": {
+      "1": [
+        {
+          "text": "Tova the little turtle loved watching the sunrise.",
+          "mood": "wonder",
+          "start_seconds": 0.0,
+          "end_seconds": 3.28
+        },
+        {
+          "text": "Tomorrow, she decided, she would see the first golden light from the hilltop bell.",
+          "mood": "hopeful",
+          "start_seconds": 3.48,
+          "end_seconds": 9.96
+        },
+        {
+          "text": "She packed a soft snack and told her friends.",
+          "mood": "determined",
+          "start_seconds": 10.16,
+          "end_seconds": 13.04
+        },
+        {
+          "text": "“We’ll meet you there!” they cheered, already bouncing down the path.",
+          "mood": "joyful",
+          "start_seconds": 13.24,
+          "end_seconds": 18.12
+        }
+      ],
+      "2": [
+        {
+          "text": "Her friends hurried ahead, their feet pattering over the trail.",
+          "mood": "calm",
+          "start_seconds": 0.0,
+          "end_seconds": 4.24
+        },
+        {
+          "text": "Tova smiled and started at her own comfortable pace.",
+          "mood": "reassuring",
+          "start_seconds": 4.44,
+          "end_seconds": 8.277
+        },
+        {
+          "text": "Step, step, breathe.",
+          "mood": "calm",
+          "start_seconds": 8.477,
+          "end_seconds": 10.557
+        },
+        {
+          "text": "The hill was still there, and so was the morning.",
+          "mood": "reassuring",
+          "start_seconds": 10.757,
+          "end_seconds": 14.037
+        },
+        {
+          "text": "She did not need to race to make the journey count.",
+          "mood": "thoughtful",
+          "start_seconds": 14.237,
+          "end_seconds": 17.517
+        }
+      ],
+      "3": [
+        {
+          "text": "Pebbles covered the next part of the path.",
+          "mood": "worried",
+          "start_seconds": 0.0,
+          "end_seconds": 2.56
+        },
+        {
+          "text": "Tova moved carefully, but the stones made her feet tired.",
+          "mood": "frustrated",
+          "start_seconds": 2.76,
+          "end_seconds": 7.24
+        },
+        {
+          "text": "She found a warm sunlit rock and rested beside it.",
+          "mood": "cozy",
+          "start_seconds": 7.44,
+          "end_seconds": 11.44
+        },
+        {
+          "text": "From there, she could see the hilltop bell shining faintly against the early sky.",
+          "mood": "hopeful",
+          "start_seconds": 11.64,
+          "end_seconds": 18.2
+        }
+      ],
+      "4": [
+        {
+          "text": "An ant carrying a crumb marched by.",
+          "mood": "playful",
+          "start_seconds": 0.0,
+          "end_seconds": 2.633
+        },
+        {
+          "text": "“Is there a safer way around the loose stones?” Tova asked.",
+          "mood": "curious",
+          "start_seconds": 2.833,
+          "end_seconds": 6.672
+        },
+        {
+          "text": "The ant pointed toward a path beside the grass.",
+          "mood": "reassuring",
+          "start_seconds": 6.872,
+          "end_seconds": 10.312
+        },
+        {
+          "text": "It curved farther around the hill, but its ground looked smooth and steady.",
+          "mood": "thoughtful",
+          "start_seconds": 10.512,
+          "end_seconds": 16.429
+        },
+        {
+          "text": "Tova thanked her and began again.",
+          "mood": "grateful",
+          "start_seconds": 16.629,
+          "end_seconds": 19.108
+        }
+      ],
+      "5": [
+        {
+          "text": "A light drizzle began as Tova reached the final slope.",
+          "mood": "worried",
+          "start_seconds": 0.0,
+          "end_seconds": 4.077
+        },
+        {
+          "text": "The stones looked shiny and slippery.",
+          "mood": "worried",
+          "start_seconds": 4.277,
+          "end_seconds": 7.157
+        },
+        {
+          "text": "She stopped at the bottom and watched the rain gather in tiny beads.",
+          "mood": "thoughtful",
+          "start_seconds": 7.357,
+          "end_seconds": 11.997
+        },
+        {
+          "text": "The bell was close, but Tova knew she could choose a safer way.",
+          "mood": "determined",
+          "start_seconds": 12.197,
+          "end_seconds": 16.197
+        }
+      ],
+      "6": [
+        {
+          "text": "Tova checked her footing and chose the longer grassy turn.",
+          "mood": "determined",
+          "start_seconds": 0.0,
+          "end_seconds": 3.68
+        },
+        {
+          "text": "Soft earth held her steps.",
+          "mood": "reassuring",
+          "start_seconds": 3.88,
+          "end_seconds": 6.2
+        },
+        {
+          "text": "When the path grew steep, she paused, took a breath, and moved on.",
+          "mood": "determined",
+          "start_seconds": 6.4,
+          "end_seconds": 10.88
+        },
+        {
+          "text": "The drizzle tapped her shell like a quiet drum, keeping time with every careful step.",
+          "mood": "calm",
+          "start_seconds": 11.08,
+          "end_seconds": 18.276
+        }
+      ],
+      "7": [
+        {
+          "text": "From somewhere above came a gentle chime.",
+          "mood": "curious",
+          "start_seconds": 0.0,
+          "end_seconds": 2.88
+        },
+        {
+          "text": "The hilltop bell was ringing in the breeze.",
+          "mood": "hopeful",
+          "start_seconds": 3.08,
+          "end_seconds": 5.96
+        },
+        {
+          "text": "Tova lifted her head.",
+          "mood": "determined",
+          "start_seconds": 6.16,
+          "end_seconds": 7.76
+        },
+        {
+          "text": "Her friends must have reached the top, but she was not too late.",
+          "mood": "reassuring",
+          "start_seconds": 7.96,
+          "end_seconds": 12.84
+        },
+        {
+          "text": "She followed the grassy bend, one steady step at a time.",
+          "mood": "determined",
+          "start_seconds": 13.04,
+          "end_seconds": 17.84
+        }
+      ],
+      "8": [
+        {
+          "text": "At the last bend, the sun peeked over the horizon.",
+          "mood": "wonder",
+          "start_seconds": 0.0,
+          "end_seconds": 3.52
+        },
+        {
+          "text": "Gold spread across the hills, the wet grass, and Tova’s shell.",
+          "mood": "wonder",
+          "start_seconds": 3.72,
+          "end_seconds": 8.6
+        },
+        {
+          "text": "She stopped to watch.",
+          "mood": "calm",
+          "start_seconds": 8.8,
+          "end_seconds": 10.88
+        },
+        {
+          "text": "The sunrise had waited for no one, yet it seemed to glow just for her.",
+          "mood": "wonder",
+          "start_seconds": 11.08,
+          "end_seconds": 16.912
+        }
+      ],
+      "9": [
+        {
+          "text": "Tova reached the bell as her friends waved from the hilltop.",
+          "mood": "relieved",
+          "start_seconds": 0.0,
+          "end_seconds": 3.76
+        },
+        {
+          "text": "She rang it once, then sat beside them to share her snack.",
+          "mood": "joyful",
+          "start_seconds": 3.96,
+          "end_seconds": 8.36
+        },
+        {
+          "text": "Together they watched the clouds turn peach and pink.",
+          "mood": "wonder",
+          "start_seconds": 8.56,
+          "end_seconds": 12.316
+        },
+        {
+          "text": "“You made it!” they said.",
+          "mood": "joyful",
+          "start_seconds": 12.516,
+          "end_seconds": 14.436
+        },
+        {
+          "text": "“I took the path that worked for me,” Tova replied.",
+          "mood": "proud",
+          "start_seconds": 14.636,
+          "end_seconds": 18.716
+        }
+      ],
+      "10": [
+        {
+          "text": "On the way home, Tova felt proud—not because she had been first, but because she kept choosing her next step.",
+          "mood": "proud",
+          "start_seconds": 0.0,
+          "end_seconds": 8.24
+        },
+        {
+          "text": "The path had stones, rain, a rest, and a helpful ant.",
+          "mood": "thoughtful",
+          "start_seconds": 8.44,
+          "end_seconds": 13.32
+        },
+        {
+          "text": "She carried the sunrise in her heart, one careful step at a time.",
+          "mood": "hopeful",
+          "start_seconds": 13.52,
+          "end_seconds": 18.16
+        }
+      ]
+    },
+    "10": {
+      "1": [
+        {
+          "text": "Luma’s family packed their burrow into baskets.",
+          "mood": "wistful",
+          "start_seconds": 0.0,
+          "end_seconds": 2.96
+        },
+        {
+          "text": "Tomorrow they would move to a new den beyond the creek.",
+          "mood": "nervous",
+          "start_seconds": 3.16,
+          "end_seconds": 6.68
+        },
+        {
+          "text": "Papa rolled the old lantern in a blanket.",
+          "mood": "cozy",
+          "start_seconds": 6.88,
+          "end_seconds": 10.08
+        },
+        {
+          "text": "Mama packed the family cups.",
+          "mood": "cozy",
+          "start_seconds": 10.28,
+          "end_seconds": 12.52
+        },
+        {
+          "text": "Luma held her notebook close.",
+          "mood": "tender",
+          "start_seconds": 12.72,
+          "end_seconds": 15.28
+        },
+        {
+          "text": "“Will our home come with us?” she wondered.",
+          "mood": "worried",
+          "start_seconds": 15.48,
+          "end_seconds": 18.52
+        }
+      ],
+      "2": [
+        {
+          "text": "That night, Luma listened to the burrow’s familiar sounds: the kettle’s soft hum, Mama’s humming, and Olli’s sleepy sigh.",
+          "mood": "cozy",
+          "start_seconds": 0.0,
+          "end_seconds": 9.84
+        },
+        {
+          "text": "She loved the smell of bread and cedar, too.",
+          "mood": "tender",
+          "start_seconds": 10.04,
+          "end_seconds": 13.08
+        },
+        {
+          "text": "“What if the new den feels too different?” she whispered.",
+          "mood": "worried",
+          "start_seconds": 13.28,
+          "end_seconds": 17.6
+        },
+        {
+          "text": "Mama squeezed her paw.",
+          "mood": "reassuring",
+          "start_seconds": 17.8,
+          "end_seconds": 19.48
+        }
+      ],
+      "3": [
+        {
+          "text": "In her notebook, Luma drew a tiny star beside each memory.",
+          "mood": "thoughtful",
+          "start_seconds": 0.0,
+          "end_seconds": 4.64
+        },
+        {
+          "text": "As she drew, the stars seemed to glow softly on the page.",
+          "mood": "wonder",
+          "start_seconds": 4.84,
+          "end_seconds": 9.157
+        },
+        {
+          "text": "One marked the old oak, one the bakery, one the creek.",
+          "mood": "cozy",
+          "start_seconds": 9.357,
+          "end_seconds": 13.757
+        },
+        {
+          "text": "“A map of the things we love,” she said.",
+          "mood": "grateful",
+          "start_seconds": 13.957,
+          "end_seconds": 16.588
+        }
+      ],
+      "4": [
+        {
+          "text": "The family followed Luma’s map toward the new den.",
+          "mood": "calm",
+          "start_seconds": 0.0,
+          "end_seconds": 3.28
+        },
+        {
+          "text": "They waved to the old oak, smelled warm bread outside the bakery, and paused by the creek.",
+          "mood": "wistful",
+          "start_seconds": 3.48,
+          "end_seconds": 9.876
+        },
+        {
+          "text": "Each familiar place made the journey feel gentler.",
+          "mood": "reassuring",
+          "start_seconds": 10.076,
+          "end_seconds": 13.984
+        },
+        {
+          "text": "Luma added a small star whenever a happy memory came to mind.",
+          "mood": "grateful",
+          "start_seconds": 14.184,
+          "end_seconds": 18.424
+        }
+      ],
+      "5": [
+        {
+          "text": "By the creek, Olli’s little paws grew tired.",
+          "mood": "tender",
+          "start_seconds": 0.0,
+          "end_seconds": 3.52
+        },
+        {
+          "text": "Luma sat beside him and sang the family’s quiet walking song.",
+          "mood": "reassuring",
+          "start_seconds": 3.72,
+          "end_seconds": 7.88
+        },
+        {
+          "text": "Mama joined, then Papa.",
+          "mood": "cozy",
+          "start_seconds": 8.08,
+          "end_seconds": 10.08
+        },
+        {
+          "text": "Their voices rose and fell together, and Olli smiled.",
+          "mood": "tender",
+          "start_seconds": 10.28,
+          "end_seconds": 14.6
+        },
+        {
+          "text": "He stood up again, ready to walk the last part with them.",
+          "mood": "hopeful",
+          "start_seconds": 14.8,
+          "end_seconds": 18.48
+        }
+      ],
+      "6": [
+        {
+          "text": "The new den smelled of cool earth and rain.",
+          "mood": "worried",
+          "start_seconds": 0.0,
+          "end_seconds": 4.4
+        },
+        {
+          "text": "Its corners looked unfamiliar.",
+          "mood": "worried",
+          "start_seconds": 4.6,
+          "end_seconds": 7.0
+        },
+        {
+          "text": "Luma set down her notebook, feeling small.",
+          "mood": "nervous",
+          "start_seconds": 7.2,
+          "end_seconds": 10.24
+        },
+        {
+          "text": "Then Mama hung their old lantern by the doorway.",
+          "mood": "hopeful",
+          "start_seconds": 10.44,
+          "end_seconds": 14.76
+        },
+        {
+          "text": "Its warm glow filled the room, and the family’s familiar shadows danced on the walls.",
+          "mood": "relieved",
+          "start_seconds": 14.96,
+          "end_seconds": 20.95
+        }
+      ],
+      "7": [
+        {
+          "text": "That evening, Papa tucked Olli beneath a soft quilt and told their favorite bedtime story.",
+          "mood": "cozy",
+          "start_seconds": 0.0,
+          "end_seconds": 7.2
+        },
+        {
+          "text": "Mama set the cups beside the little stove.",
+          "mood": "cozy",
+          "start_seconds": 7.4,
+          "end_seconds": 10.76
+        },
+        {
+          "text": "Luma listened from her new bed.",
+          "mood": "calm",
+          "start_seconds": 10.96,
+          "end_seconds": 13.12
+        },
+        {
+          "text": "The voices, the story, and the lantern’s golden glow felt like a path through the dark.",
+          "mood": "reassuring",
+          "start_seconds": 13.32,
+          "end_seconds": 20.519
+        }
+      ],
+      "8": [
+        {
+          "text": "Luma opened her notebook and drew the family’s favorite moments: the old oak, warm bakery bread, the creek song, and the lantern in its new place.",
+          "mood": "thoughtful",
+          "start_seconds": 0.0,
+          "end_seconds": 11.84
+        },
+        {
+          "text": "Her map now held old memories and new ones together.",
+          "mood": "grateful",
+          "start_seconds": 12.04,
+          "end_seconds": 16.12
+        },
+        {
+          "text": "The glowing stars made her smile.",
+          "mood": "joyful",
+          "start_seconds": 16.32,
+          "end_seconds": 18.72
+        }
+      ],
+      "9": [
+        {
+          "text": "Olli leaned over the notebook and added a star beside the new den.",
+          "mood": "playful",
+          "start_seconds": 0.0,
+          "end_seconds": 4.873
+        },
+        {
+          "text": "“This is one of my favorite places now,” he said.",
+          "mood": "joyful",
+          "start_seconds": 5.073,
+          "end_seconds": 8.673
+        },
+        {
+          "text": "Then he snuggled beside Luma and asked Papa for one more story.",
+          "mood": "cozy",
+          "start_seconds": 8.873,
+          "end_seconds": 13.993
+        },
+        {
+          "text": "Their laughter made the new room feel cozy.",
+          "mood": "tender",
+          "start_seconds": 14.193,
+          "end_seconds": 17.153
+        }
+      ],
+      "10": [
+        {
+          "text": "Luma looked at the map, then at her family sharing stories beneath the old lantern.",
+          "mood": "tender",
+          "start_seconds": 0.0,
+          "end_seconds": 5.52
+        },
+        {
+          "text": "Home was not only one burrow or one path.",
+          "mood": "thoughtful",
+          "start_seconds": 5.72,
+          "end_seconds": 9.48
+        },
+        {
+          "text": "It grew wherever they listened, helped, sang, and cared for one another.",
+          "mood": "grateful",
+          "start_seconds": 9.68,
+          "end_seconds": 14.952
+        },
+        {
+          "text": "She drew one last bright star around them all.",
+          "mood": "tender",
+          "start_seconds": 15.152,
+          "end_seconds": 18.752
+        }
+      ]
     }
   }
 }

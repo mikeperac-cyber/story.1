@@ -1,0 +1,122 @@
+{
+  "1": [
+    ["curious", "joyful", "shy", "hopeful", "surprised"],
+    ["cozy", "wistful", "shy", "playful"],
+    ["curious", "hopeful", "reassuring", "tender", "nervous", "determined", "nervous"],
+    ["determined", "shy", "shy", "curious", "playful", "joyful", "proud"],
+    ["surprised", "worried", "nervous", "worried", "nervous", "worried"],
+    ["worried", "worried", "worried", "thoughtful", "brave"],
+    ["determined", "brave", "brave", "brave", "determined", "hopeful"],
+    ["reassuring", "calm", "reassuring", "tender", "wonder"],
+    ["relieved", "cozy", "tender", "tender", "joyful"],
+    ["cozy", "wonder", "curious", "proud", "thoughtful"]
+  ],
+  "2": [
+    ["curious", "worried", "urgent", "worried", "nervous", "nervous"],
+    ["wistful", "determined", "surprised", "disappointed", "curious", "hopeful"],
+    ["curious", "tender", "curious", "worried", "worried", "determined"],
+    ["determined", "nervous", "brave", "hopeful", "worried"],
+    ["determined", "urgent", "surprised", "playful", "joyful", "hopeful"],
+    ["curious", "worried", "tender", "nervous", "worried", "determined"],
+    ["thoughtful", "curious", "brave", "nervous", "nervous", "determined"],
+    ["determined", "hopeful", "relieved", "relieved", "joyful"],
+    ["relieved", "calm", "joyful", "proud"],
+    ["wonder", "joyful", "proud", "proud", "thoughtful"]
+  ],
+  "3": [
+    ["worried", "worried", "wistful", "worried", "determined"],
+    ["tender", "tender", "reassuring", "joyful", "hopeful", "joyful"],
+    ["curious", "joyful", "wonder", "thoughtful", "hopeful"],
+    ["tender", "tender", "grateful", "curious", "wonder"],
+    ["surprised", "urgent", "worried", "worried", "frustrated"],
+    ["relieved", "relieved", "determined", "playful", "playful", "relieved"],
+    ["calm", "tender", "calm", "playful", "hopeful"],
+    ["wonder", "curious", "surprised", "wonder"],
+    ["joyful", "playful", "cozy", "playful"],
+    ["thoughtful", "grateful", "hopeful", "reassuring"]
+  ],
+  "4": [
+    ["wistful", "wistful", "shy", "disappointed"],
+    ["determined", "joyful", "disappointed", "wistful", "reassuring"],
+    ["curious", "worried", "worried", "tender", "hopeful"],
+    ["thoughtful", "playful", "thoughtful", "hopeful", "wonder"],
+    ["nervous", "worried", "surprised", "reassuring", "relieved", "hopeful"],
+    ["calm", "hopeful", "reassuring", "brave"],
+    ["worried", "worried", "determined", "relieved", "joyful"],
+    ["curious", "hopeful", "wonder", "relieved"],
+    ["relieved", "joyful", "grateful", "proud", "tender"],
+    ["thoughtful", "reassuring", "proud", "proud"]
+  ],
+  "5": [
+    ["joyful", "calm", "worried", "playful", "playful"],
+    ["joyful", "playful", "playful", "proud", "surprised", "worried"],
+    ["surprised", "surprised", "worried", "nervous", "disappointed", "nervous", "thoughtful"],
+    ["nervous", "worried", "thoughtful", "relieved", "thoughtful"],
+    ["worried", "curious", "nervous", "worried", "brave"],
+    ["nervous", "tender", "reassuring", "grateful", "hopeful", "relieved", "hopeful"],
+    ["surprised", "curious", "determined", "wonder", "joyful"],
+    ["determined", "playful", "calm", "proud"],
+    ["joyful", "wonder", "proud", "playful", "tender"],
+    ["grateful", "thoughtful", "calm", "playful"]
+  ],
+  "6": [
+    ["calm", "worried", "worried", "curious", "wonder"],
+    ["curious", "wonder", "surprised", "playful", "determined", "joyful"],
+    ["determined", "disappointed", "thoughtful", "determined"],
+    ["curious", "hopeful", "worried", "thoughtful", "worried"],
+    ["curious", "joyful", "hopeful", "worried", "determined"],
+    ["thoughtful", "determined", "determined", "determined", "frustrated", "reassuring", "calm"],
+    ["thoughtful", "thoughtful", "determined", "calm", "hopeful"],
+    ["determined", "reassuring", "determined", "brave", "surprised"],
+    ["joyful", "joyful", "joyful", "calm", "wonder"],
+    ["grateful", "thoughtful", "proud", "joyful"]
+  ],
+  "7": [
+    ["disappointed", "calm", "hopeful", "curious"],
+    ["wonder", "joyful", "joyful", "determined"],
+    ["curious", "determined", "playful", "disappointed", "disappointed", "determined"],
+    ["curious", "tender", "hopeful", "joyful", "thoughtful", "hopeful"],
+    ["determined", "curious", "surprised", "wonder", "surprised", "joyful", "wonder"],
+    ["worried", "surprised", "disappointed", "urgent"],
+    ["urgent", "hopeful", "determined", "hopeful"],
+    ["hopeful", "grateful", "determined", "joyful"],
+    ["wonder", "joyful", "joyful", "tender", "joyful"],
+    ["grateful", "grateful", "thoughtful", "joyful"]
+  ],
+  "8": [
+    ["calm", "wistful", "disappointed", "reassuring", "hopeful", "disappointed"],
+    ["curious", "playful", "reassuring", "curious", "curious", "reassuring"],
+    ["cozy", "calm", "playful", "joyful", "joyful"],
+    ["surprised", "playful", "curious", "joyful"],
+    ["disappointed", "frustrated", "calm", "frustrated"],
+    ["curious", "tender", "joyful", "tender"],
+    ["determined", "surprised", "tender", "joyful", "relieved", "hopeful"],
+    ["curious", "playful", "calm", "playful"],
+    ["proud", "tender", "grateful", "surprised"],
+    ["calm", "thoughtful", "wonder", "cozy", "hopeful"]
+  ],
+  "9": [
+    ["wonder", "hopeful", "determined", "joyful"],
+    ["calm", "reassuring", "calm", "reassuring", "thoughtful"],
+    ["worried", "frustrated", "cozy", "hopeful"],
+    ["playful", "curious", "reassuring", "thoughtful", "grateful"],
+    ["worried", "worried", "thoughtful", "determined"],
+    ["determined", "reassuring", "determined", "calm"],
+    ["curious", "hopeful", "determined", "reassuring", "determined"],
+    ["wonder", "wonder", "calm", "wonder"],
+    ["relieved", "joyful", "wonder", "joyful", "proud"],
+    ["proud", "thoughtful", "hopeful"]
+  ],
+  "10": [
+    ["wistful", "nervous", "cozy", "cozy", "tender", "worried"],
+    ["cozy", "tender", "worried", "reassuring"],
+    ["thoughtful", "wonder", "cozy", "grateful"],
+    ["calm", "wistful", "reassuring", "grateful"],
+    ["tender", "reassuring", "cozy", "tender", "hopeful"],
+    ["worried", "worried", "nervous", "hopeful", "relieved"],
+    ["cozy", "cozy", "calm", "reassuring"],
+    ["thoughtful", "grateful", "joyful"],
+    ["playful", "joyful", "cozy", "tender"],
+    ["tender", "thoughtful", "grateful", "tender"]
+  ]
+}

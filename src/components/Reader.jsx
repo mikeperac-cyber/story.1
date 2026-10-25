@@ -155,9 +155,9 @@ export default function Reader({
                   id="narration-voice"
                   value={voiceURI}
                   onChange={(event) => onVoiceChange(event.target.value)}
-                  title="Aiden is the consistent offline storyteller, with gentle page-matched emotions. Device voices add sentence-by-sentence expression; available voices vary by browser."
+                  title="Serena is the warm female offline storyteller. Both options follow each sentence's mood; device voice quality varies by browser."
                 >
-                  <option value="offline">Aiden · Expressive offline storyteller</option>
+                  <option value="offline">Serena · Expressive female storyteller</option>
                   <option value="device">Expressive device storyteller</option>
                   {voices.map((voice) => (
                     <option key={`${voice.voiceURI}-${voice.lang}`} value={voice.voiceURI}>
@@ -251,7 +251,7 @@ export default function Reader({
             <span>Next page</span> <Icon name="arrowRight" size={22} />
           </button>
         </div>
-        <p className="reader-live-message" aria-live="polite">{audioMessage}</p>
+        <p className="reader-live-message" aria-live={speechState === "speaking" ? "off" : "polite"}>{audioMessage}</p>
         <p className="keyboard-hint">Use ← and → to turn pages, or swipe on a touch screen.</p>
       </main>
     </div>
